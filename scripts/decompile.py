@@ -367,7 +367,9 @@ def main() -> int:
         action="store_true",
         help="verify stored checksums without tools or network access",
     )
-    parser.add_argument("--output", type=Path, help="new directory for regenerated output")
+    parser.add_argument(
+        "--output", type=Path, help="new directory for regenerated output"
+    )
     parser.add_argument("--cache", type=Path, default=ROOT / ".cache" / "downloads")
     parser.add_argument(
         "--offline",
@@ -388,7 +390,9 @@ def main() -> int:
     if checking:
         verify_result(target, lock)
     elif target.exists():
-        raise DecompilationError("The --output directory already exists; choose a new one")
+        raise DecompilationError(
+            "The --output directory already exists; choose a new one"
+        )
     with tempfile.TemporaryDirectory(prefix="pockettopo-decompile-") as directory:
         output = generate(lock, Path(directory), args.cache, args.offline)
         if checking:

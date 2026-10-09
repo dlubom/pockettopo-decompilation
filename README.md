@@ -8,15 +8,19 @@ cache without being installed globally.
 
 ## Quick start
 
-Requirements: Python 3.9 or later, `curl`, and network access for the first
-reproduction. Reproduction and byte-for-byte matching have been verified
+Requirements: a POSIX shell, `curl`, and `sha256sum` or `shasum` for the local
+development setup, plus network access for the first run. The wrapper installs
+uv 0.11.8 locally, and uv downloads CPython 3.12.12 and the locked Ruff package.
+No global uv, Ruff, or Python installation is needed for this setup.
+Reproduction and byte-for-byte matching have been verified
 on macOS arm64. The script also selects pinned runtimes for macOS x64,
 Linux arm64/x64, and Windows arm64/x64; those platforms have not been tested.
 
 Run from the repository root:
 
 ```sh
-python3 scripts/decompile.py --check
+./bin/uv sync --locked
+./bin/uv run --locked python scripts/decompile.py --check
 ```
 
 This command verifies the original archive, downloads packages with pinned
@@ -28,19 +32,19 @@ diagnostics result in exit code `1`. The stored output remains available.
 Check integrity without tools or network access:
 
 ```sh
-python3 scripts/decompile.py --verify
+./bin/uv run --locked --offline python scripts/decompile.py --verify
 ```
 
 Repeat reproduction without downloads once the cache has been populated:
 
 ```sh
-python3 scripts/decompile.py --check --offline
+./bin/uv run --locked --offline python scripts/decompile.py --check --offline
 ```
 
 Save fresh output to a new directory:
 
 ```sh
-python3 scripts/decompile.py --output /tmp/pockettopo-new-result
+./bin/uv run --locked python scripts/decompile.py --output /tmp/pockettopo-new-result
 ```
 
 The `--output` directory must not already exist. Running without arguments
@@ -49,12 +53,50 @@ regenerates and compares it, as with `--check`. Input and default output
 paths are resolved relative to the script, so it can also be run from
 another directory. `--cache PATH` selects an alternative package cache.
 
+## Local development environment
+
+Always use `./bin/uv` from the repository root. This wrapper checks the pinned
+uv installer SHA-256 before executing it, checks the installed uv version,
+and keeps uv, managed Python, tool storage, and package caches under `.cache/`.
+The project environment is `.venv/`; Ruff is installed there rather than
+globally. The installer does not modify shell profiles or the global PATH.
+The local wrapper supports macOS and Linux; it has been tested on macOS arm64.
+
+`.python-version` pins the development interpreter, `pyproject.toml` pins uv
+and Ruff, and `uv.lock` records package artifacts and their hashes. The script
+itself still supports standalone Python 3.9+ execution on its supported
+platforms. `tools.lock.json` separately pins the decompilation tools.
+
+```sh
+./bin/uv sync --locked
+./bin/uv run --locked ruff check .
+./bin/uv run --locked ruff format --check .
+./bin/uv run --locked python -m unittest discover -s tests -v
+```
+
+`--locked` rejects stale project metadata instead of rewriting the lockfile.
+After the initial setup, rebuild the environment from cached packages with
+`./bin/uv sync --locked --offline`; add `--offline` to `uv run` commands to
+disable uv downloads as well. Full offline reproduction also requires the
+decompiler packages in `.cache/downloads/` and the script's own `--offline`.
+The wrapper fails without downloading if offline mode is requested before
+local uv has been installed.
+
+Ruff checks project-authored Python and excludes inputs, generated output,
+and caches. To apply formatting, run `./bin/uv run --locked ruff format .`.
+Formatting `scripts/decompile.py` changes its provenance hash: regenerate
+into a fresh directory and replace the complete output before verification.
+
 ## Contents
 
 ```text
 inputs/PocketTopo-1.372.zip  author's original package, preserved byte for byte
 tools.lock.json            versions, URLs, and SHA-256/SHA-512 hashes of tools and inputs
 scripts/decompile.py       download, verification, decompilation, and comparison
+bin/uv                     pinned local uv bootstrap and environment wrapper
+pyproject.toml             project metadata, pinned tools, and Ruff configuration
+uv.lock                    development package versions and artifact hashes
+.python-version            pinned development Python version
 decompiled/csharp/         main program, .csproj project, and resources
 decompiled/localizations/  de, fr, pl, and sl resources
 decompiled/PocketTopo.il   complete IL code of the main EXE
@@ -140,7 +182,7 @@ program.
 ## Script tests
 
 ```sh
-python3 -m unittest discover -s tests -v
+./bin/uv run --locked --offline python -m unittest discover -s tests -v
 ```
 
 The tests do not download packages. The full integration check is `--check`,

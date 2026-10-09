@@ -10,7 +10,7 @@
     "PocketTopoV1372/sl/PocketTopo.resources.dll": "fc87b4c5947eedd1e36daaad92d55548f27cd72a39af7665936f8133c6920874"
   },
   "lockfile_sha256": "5cbef0187075f161cea78264a8bad970efcc377a2ef7bfb3d5c1fe92ff939bc9",
-  "script_sha256": "55351bec84309cea3cb024c426e6d3cd44e8238da570fe8d3a293a892d4fa92e",
+  "script_sha256": "df248df0c34e1f4d62c10a72cba46e8b16a4bb08c1ddcc66036493368b06a359",
   "tools": {
     "ilspycmd": "9.1.0.7988",
     "dotnet_runtime": "8.0.31",

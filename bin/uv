@@ -1,0 +1,55 @@
+#!/bin/sh
+# Bootstrap a pinned uv and keep its development environment in the repository.
+set -eu
+
+repo_root=$(CDPATH= cd -- "$(dirname -- "$0")/.." && pwd)
+uv_version=0.11.8
+installer_sha256=facbed3a7e2750df3aef698537c6d50869b025a58bdd13154cfdcc2f30354ca2
+uv_binary="$repo_root/.cache/uv-bin/uv"
+
+if [ ! -x "$uv_binary" ]; then
+    case " ${*} " in
+        *" --offline "*)
+            echo "Local uv is missing; run ./bin/uv --version online first." >&2
+            exit 1
+            ;;
+    esac
+    if [ "${UV_OFFLINE:-0}" = 1 ] || [ "${UV_OFFLINE:-0}" = true ]; then
+        echo "Local uv is missing; run ./bin/uv --version online first." >&2
+        exit 1
+    fi
+    mkdir -p "$repo_root/.cache"
+    scratch=$(mktemp -d "$repo_root/.cache/uv-bootstrap.XXXXXX")
+    trap 'rm -rf "$scratch"' EXIT HUP INT TERM
+    curl --fail --silent --show-error --location --retry 2 \
+        --connect-timeout 15 --max-time 120 \
+        "https://astral.sh/uv/$uv_version/install.sh" --output "$scratch/install.sh"
+    if command -v sha256sum >/dev/null 2>&1; then
+        actual_sha256=$(sha256sum "$scratch/install.sh" | cut -d ' ' -f 1)
+    else
+        actual_sha256=$(shasum -a 256 "$scratch/install.sh" | cut -d ' ' -f 1)
+    fi
+    if [ "$actual_sha256" != "$installer_sha256" ]; then
+        echo "uv installer checksum mismatch." >&2
+        exit 1
+    fi
+    UV_UNMANAGED_INSTALL="$repo_root/.cache/uv-bin" UV_NO_MODIFY_PATH=1 \
+        sh "$scratch/install.sh" >&2
+    rm -rf "$scratch"
+    trap - EXIT HUP INT TERM
+fi
+
+case "$("$uv_binary" --version)" in
+    "uv $uv_version"|"uv $uv_version "*) ;;
+    *) echo "Local uv version mismatch; expected $uv_version." >&2; exit 1 ;;
+esac
+
+export UV_CACHE_DIR="$repo_root/.cache/uv"
+export UV_PYTHON_INSTALL_DIR="$repo_root/.cache/python"
+export UV_PYTHON_BIN_DIR="$repo_root/.cache/python-bin"
+export UV_PYTHON_INSTALL_BIN=0
+export UV_MANAGED_PYTHON=1
+export UV_TOOL_DIR="$repo_root/.cache/uv-tools"
+export UV_TOOL_BIN_DIR="$repo_root/.cache/uv-tool-bin"
+export UV_PROJECT_ENVIRONMENT="$repo_root/.venv"
+exec "$uv_binary" "$@"

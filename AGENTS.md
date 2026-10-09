@@ -11,16 +11,21 @@ This research repository reproduces the decompilation of PocketTopo 1.372.
 - `analysis/ANALYSIS.txt`: code map and research observations.
 - `tests/test_decompile.py`: reproduction and extraction safety tests.
 - `.cache/downloads/`: ignored local tool cache.
+- `bin/uv`: pinned local uv bootstrap and environment wrapper.
+- `pyproject.toml`, `uv.lock`, `.python-version`: development environment pins.
 
 ## Build, Test, and Development Commands
 
-Run commands from the repository root. Reproduction requires Python 3.9+, `curl`, and network access for uncached packages; no global .NET SDK or Wine installation is required.
+Run commands from the repository root using `./bin/uv`. Initial setup requires a POSIX shell, `curl`, `sha256sum` or `shasum`, and network access. The wrapper keeps uv, managed Python, and caches in `.cache/` and the environment in `.venv/`. The standalone script supports Python 3.9+; no global .NET SDK or Wine installation is required.
 
-- `python3 scripts/decompile.py --verify`: verify input, output checksums, and provenance without network access.
-- `python3 -m unittest discover -s tests -v`: run the unit suite without downloading packages.
-- `python3 scripts/decompile.py --check`: regenerate in temporary storage and compare every output byte with the committed result.
-- `python3 scripts/decompile.py --check --offline`: repeat reproduction using cached packages only.
-- `python3 scripts/decompile.py --output /tmp/pockettopo-new-result`: generate into a destination that must not already exist.
+- `./bin/uv sync --locked`: install the pinned development environment.
+- `./bin/uv run --locked --offline ruff check .`: lint project-authored Python.
+- `./bin/uv run --locked --offline ruff format --check .`: check formatting.
+- `./bin/uv run --locked --offline python scripts/decompile.py --verify`: verify input, output checksums, and provenance without network access.
+- `./bin/uv run --locked --offline python -m unittest discover -s tests -v`: run the unit suite without downloading packages.
+- `./bin/uv run --locked python scripts/decompile.py --check`: regenerate in temporary storage and compare every output byte with the committed result.
+- `./bin/uv run --locked --offline python scripts/decompile.py --check --offline`: repeat reproduction using cached packages only.
+- `./bin/uv run --locked python scripts/decompile.py --output /tmp/pockettopo-new-result`: generate into a destination that must not already exist.
 
 The generated C# project has not been recompiled; reproduction checks do not establish application runtime correctness.
 
@@ -28,7 +33,7 @@ The generated C# project has not been recompiled; reproduction checks do not est
 
 Use English for all project-authored documentation, code identifiers, comments, docstrings, user-facing messages, commit messages, and PR descriptions. Preserve original input bytes and generated localization resources in their source languages.
 
-Follow the existing Python style: four-space indentation, `snake_case` functions and variables, `PascalCase` classes, and uppercase constants. Retain type annotations in the script and use `pathlib.Path` for filesystem operations. Use LF endings as specified in `.gitattributes`. No formatter or linter is configured.
+Follow the existing Python style: four-space indentation, `snake_case` functions and variables, `PascalCase` classes, and uppercase constants. Retain type annotations in the script and use `pathlib.Path` for filesystem operations. Use LF endings as specified in `.gitattributes`. Ruff provides linting and formatting; its configuration excludes inputs and generated output. Formatting the reproduction script requires regenerating the complete output because its hash is part of manifest provenance.
 
 ## Testing Guidelines
 
