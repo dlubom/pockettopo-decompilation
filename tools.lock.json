@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "application": {
+    "name": "PocketTopo",
+    "version": "1.372",
+    "archive": "inputs/PocketTopo-1.372.zip",
+    "url": "https://paperless.bheeb.ch/download/PocketTopo.zip",
+    "sha256": "2f06a51ed7e5cf3755339cd3c9e645779fb7295eaf66643c83c92ab65b12f3b9",
+    "main_assembly": "PocketTopoV1372/PocketTopo.exe",
+    "assemblies_sha256": {
+      "PocketTopoV1372/de/PocketTopo.resources.dll": "088980f2c9599511c8f3c49acb2822fde75fefe7905d9a7835585771aee79980",
+      "PocketTopoV1372/fr/PocketTopo.resources.dll": "10e71b43ad433d36903b7da14a7f38e946856a9adccc6af0e65f6bfe89203034",
+      "PocketTopoV1372/pl/PocketTopo.resources.dll": "427cb5e6f6405b0b271f3014d4e9b389e30f8fca7404a86a86685d27893bf714",
+      "PocketTopoV1372/PocketTopo.exe": "048cf57b874238ac142f1e4d3446af639ce3760b4a91724ea00bcc320eb5c371",
+      "PocketTopoV1372/sl/PocketTopo.resources.dll": "fc87b4c5947eedd1e36daaad92d55548f27cd72a39af7665936f8133c6920874"
+    }
+  },
+  "ilspy": {
+    "version": "9.1.0.7988",
+    "url": "https://api.nuget.org/v3-flatcontainer/ilspycmd/9.1.0.7988/ilspycmd.9.1.0.7988.nupkg",
+    "sha256": "2b5058f5ccc164c33b7aabf1a5eb0cf3d3a6af6c145aaf58efd3ed891443af7c",
+    "archive": "ilspycmd-9.1.0.7988.nupkg",
+    "entrypoint": "tools/net8.0/any/ilspycmd.dll",
+    "repository_commit": "03b7444943e720b3134d296c0c8dd3876f8ea4ce"
+  },
+  "references": {
+    "package": "Microsoft.NETFramework.ReferenceAssemblies.net20",
+    "version": "1.0.3",
+    "url": "https://api.nuget.org/v3-flatcontainer/microsoft.netframework.referenceassemblies.net20/1.0.3/microsoft.netframework.referenceassemblies.net20.1.0.3.nupkg",
+    "sha256": "7f74997fec338dde70f5a8c9fd09aa6fe21286731e7b133cc133d644e4e3c5e8",
+    "archive": "net20-reference-1.0.3.nupkg",
+    "directory": "build/.NETFramework/v2.0"
+  },
+  "dotnet": {
+    "version": "8.0.31",
+    "metadata_url": "https://builds.dotnet.microsoft.com/dotnet/release-metadata/8.0/releases.json",
+    "runtimes": {
+      "osx-arm64": {
+        "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/8.0.31/dotnet-runtime-8.0.31-osx-arm64.tar.gz",
+        "sha512": "1963d2ab3798efdc2b33034ef57d4252849a066a2313ce62a574e556d19e5e981afe13c9545eb6d59437849723e1c8350f10f8068bcfa6b7a2815a07263bb8b3",
+        "archive": "dotnet-runtime-8.0.31-osx-arm64.tar.gz"
+      },
+      "osx-x64": {
+        "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/8.0.31/dotnet-runtime-8.0.31-osx-x64.tar.gz",
+        "sha512": "d74c7433ee31dd2a5d6672efafeeb2a2d43fa84b19b1d41e412acadfe04a4cd4046cddd51c0e1027df0a23fa6065887e0123a5c6540de1e731748d21ca75bdb6",
+        "archive": "dotnet-runtime-8.0.31-osx-x64.tar.gz"
+      },
+      "linux-arm64": {
+        "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/8.0.31/dotnet-runtime-8.0.31-linux-arm64.tar.gz",
+        "sha512": "ddc66b65e9377e7f3805ba78a0ec9be857dfb96df866349df2bf963312933c663e5db98bd8443789dcf6457ca8f815404450946ef87562117d326c3a4423466c",
+        "archive": "dotnet-runtime-8.0.31-linux-arm64.tar.gz"
+      },
+      "linux-x64": {
+        "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/8.0.31/dotnet-runtime-8.0.31-linux-x64.tar.gz",
+        "sha512": "f336bdec58d54bf50d74a1b38efa82f7290d976bd2ed98b845ebcbac42cf0d8cef504684fc088d4b05f98737b996bf3302e52bd9c23005deae7c60780b2652fb",
+        "archive": "dotnet-runtime-8.0.31-linux-x64.tar.gz"
+      },
+      "win-arm64": {
+        "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/8.0.31/dotnet-runtime-8.0.31-win-arm64.zip",
+        "sha512": "4c01f325accb1abdea354b5a7c1422299c6d48b267dd86f4173962259542b25b8f2d19787be4b3753d7aaae9a99386fff9eb90581ffb6564e47bef932aaeeace",
+        "archive": "dotnet-runtime-8.0.31-win-arm64.zip"
+      },
+      "win-x64": {
+        "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/8.0.31/dotnet-runtime-8.0.31-win-x64.zip",
+        "sha512": "9c55c58694676ee64b0eed2cd6d8cbf58b9aa8288420acc66841e15ca0099c75d4af0182d23a641c2342e5a151a325df4a12fa0bde2e47c0fb7e9a33e7b09896",
+        "archive": "dotnet-runtime-8.0.31-win-x64.zip"
+      }
+    }
+  },
+  "decompiler_arguments": [
+    "--disable-updatecheck",
+    "--nested-directories"
+  ],
+  "localizations": [
+    "de",
+    "fr",
+    "pl",
+    "sl"
+  ]
+}

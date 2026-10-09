@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="$this.Text" xml:space="preserve"><value>Eichung</value></data>
+  <data name="menuAuto.Text" xml:space="preserve"><value>Automatisch</value></data>
+  <data name="menuRead.Text" xml:space="preserve"><value>Lesen</value></data>
+  <data name="txtFileDialog.Filter" xml:space="preserve"><value>Text (.txt)|*.txt</value></data>
+  <data name="menuDisconn.Text" xml:space="preserve"><value>Trennen</value></data>
+  <data name="menuUpdate.Text" xml:space="preserve"><value>Aktualisieren</value></data>
+  <data name="saveFileDialog.Filter" xml:space="preserve"><value>Eichung (.cal)|*.cal</value></data>
+  <data name="menuStart.Text" xml:space="preserve"><value>Starten</value></data>
+  <data name="menuStop.Text" xml:space="preserve"><value>Stoppen</value></data>
+  <data name="menuLOn.Text" xml:space="preserve"><value>Laser Ein</value></data>
+  <data name="connFailed.Text" xml:space="preserve"><value>Keine Verbindung!</value></data>
+  <data name="menuExport.Text" xml:space="preserve"><value>Exportieren...</value></data>
+  <data name="menuOpen.Text" xml:space="preserve"><value>Öffnen...</value></data>
+  <data name="menuSave.Text" xml:space="preserve"><value>Speichern...</value></data>
+  <data name="menuConnect.Text" xml:space="preserve"><value>Verbinden</value></data>
+  <data name="menuNew.Text" xml:space="preserve"><value>Neu</value></data>
+  <data name="menuMeasure.Text" xml:space="preserve"><value>Messen</value></data>
+  <data name="inProgress.Text" xml:space="preserve"><value>Aktualisierung läuft</value></data>
+  <data name="openFileDialog.Filter" xml:space="preserve"><value>Eichung (.cal)|*.cal|Alle|*.*</value></data>
+  <data name="menuMenu.Text" xml:space="preserve"><value>Menü</value></data>
+  <data name="menuResult.Text" xml:space="preserve"><value>Resultat</value></data>
+  <data name="menuLOff.Text" xml:space="preserve"><value>Laser Aus</value></data>
+  <data name="menuEvaluate.Text" xml:space="preserve"><value>Auswerten</value></data>
+  </root>

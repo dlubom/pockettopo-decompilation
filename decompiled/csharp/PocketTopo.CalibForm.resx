@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="&gt;&gt;menuExtra.Name" xml:space="preserve"><value>menuExtra</value></data>
+  <data name="&gt;&gt;menuExtra.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuInitial.Name" xml:space="preserve"><value>menuInitial</value></data>
+  <data name="&gt;&gt;menuInitial.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="connFailed.Visible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>False</value></data>
+  <data name="dataGridTextBoxColumn10.HeaderText" xml:space="preserve"><value>Roll</value></data>
+  <data name="dataGridTextBoxColumn9.MappingName" xml:space="preserve"><value>Incl</value></data>
+  <data name="dataGridTextBoxColumn14.MappingName" xml:space="preserve"><value>Delta</value></data>
+  <data name="menuSep2.Text" xml:space="preserve"><value>-</value></data>
+  <data name="dataGridTextBoxColumn4.Width" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>40</value></data>
+  <data name="menuSep1.Text" xml:space="preserve"><value>-</value></data>
+  <data name="dataGridTextBoxColumn12.Width" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>32</value></data>
+  <data name="&gt;&gt;database.Name" xml:space="preserve"><value>database</value></data>
+  <data name="&gt;&gt;database.Type" xml:space="preserve"><value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="menuSep3.Text" xml:space="preserve"><value>-</value></data>
+  <data name="menuNonlin.Text" xml:space="preserve"><value>NL</value></data>
+  <data name="dataGridTextBoxColumn4.MappingName" xml:space="preserve"><value>Gz</value></data>
+  <data name="&gt;&gt;inProgress.ZOrder" xml:space="preserve"><value>3</value></data>
+  <data name="dataGrid.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAAAAAAAAAAAAs=</value></data><data name="$this.Text" xml:space="preserve"><value>Calibration</value></data>
+  <data name="menuAuto.Text" xml:space="preserve"><value>Auto</value></data>
+  <data name="menuBT.Text" xml:space="preserve"><value>Bluetooth</value></data>
+  <data name="&gt;&gt;menuConnect.Name" xml:space="preserve"><value>menuConnect</value></data>
+  <data name="&gt;&gt;menuConnect.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="dataGridTextBoxColumn15.MappingName" xml:space="preserve"><value>Group</value></data>
+  <data name="dataGridTextBoxColumn16.MappingName" xml:space="preserve"><value>Valid2</value></data>
+  <data name="dataGridTextBoxColumn8.Width" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>40</value></data>
+  <data name="dataGridTextBoxColumn5.HeaderText" xml:space="preserve"><value>Mx</value></data>
+  <data name="&gt;&gt;txtFileDialog.Type" xml:space="preserve"><value>System.Windows.Forms.SaveFileDialog, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;txtFileDialog.Name" xml:space="preserve"><value>txtFileDialog</value></data>
+  <data name="dataGridTextBoxColumn16.Width" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>10</value></data>
+  <data name="dataGridTextBoxColumn1.Width" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>10</value></data>
+  <data name="menuRead.Text" xml:space="preserve"><value>Read</value></data>
+  <data name="txtFileDialog.Filter" xml:space="preserve"><value>Text File (.txt)|*.txt</value></data>
+  <data name="menuItem1.Text" xml:space="preserve"><value>-</value></data>
+  <data name="menuDisconn.Text" xml:space="preserve"><value>Disconnect</value></data>
+  <data name="dataGridTextBoxColumn13.HeaderText" xml:space="preserve"><value>α</value></data>
+  <data name="$this.ClientSize" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAPAAAAAMAQAACw==</value></data><data name="&gt;&gt;connFailed.Name" xml:space="preserve"><value>connFailed</value></data>
+  <data name="&gt;&gt;connFailed.Type" xml:space="preserve"><value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;dataGrid.Name" xml:space="preserve"><value>dataGrid</value></data>
+  <data name="&gt;&gt;dataGrid.Type" xml:space="preserve"><value>System.Windows.Forms.DataGrid, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="dataGridTextBoxColumn10.MappingName" xml:space="preserve"><value>Roll</value></data>
+  <data name="dataGridTextBoxColumn6.HeaderText" xml:space="preserve"><value>My</value></data>
+  <data name="&gt;&gt;menuStop.Name" xml:space="preserve"><value>menuStop</value></data>
+  <data name="&gt;&gt;menuStop.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="menuUpdate.Text" xml:space="preserve"><value>Update</value></data>
+  <data name="dataGridTextBoxColumn11.HeaderText" xml:space="preserve"><value>|G|</value></data>
+  <data name="dataGridTextBoxColumn4.HeaderText" xml:space="preserve"><value>Gz</value></data>
+  <data name="&gt;&gt;dataGridTextBoxColumn12.Type" xml:space="preserve"><value>System.Windows.Forms.DataGridTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;dataGridTextBoxColumn12.Name" xml:space="preserve"><value>dataGridTextBoxColumn12</value></data>
+  <data name="&gt;&gt;panel.Type" xml:space="preserve"><value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;panel.Name" xml:space="preserve"><value>panel</value></data>
+  <data name="dataGridTextBoxColumn5.Width" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>40</value></data>
+  <data name="&gt;&gt;dataGridTextBoxColumn10.Type" xml:space="preserve"><value>System.Windows.Forms.DataGridTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;dataGridTextBoxColumn10.Name" xml:space="preserve"><value>dataGridTextBoxColumn10</value></data>
+  <data name="dataGridTextBoxColumn2.HeaderText" xml:space="preserve"><value>Gx</value></data>
+  <data name="&gt;&gt;dataGridTextBoxColumn13.Type" xml:space="preserve"><value>System.Windows.Forms.DataGridTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;dataGridTextBoxColumn13.Name" xml:space="preserve"><value>dataGridTextBoxColumn13</value></data>
+  <data name="&gt;&gt;dataGridTextBoxColumn16.Type" xml:space="preserve"><value>System.Windows.Forms.DataGridTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;dataGridTextBoxColumn16.Name" xml:space="preserve"><value>dataGridTextBoxColumn16</value></data>
+  <data name="dataGridTextBoxColumn2.Width" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>40</value></data>
+  <data name="&gt;&gt;menuBT.Name" xml:space="preserve"><value>menuBT</value></data>
+  <data name="&gt;&gt;menuBT.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;dataGridTextBoxColumn11.Type" xml:space="preserve"><value>System.Windows.Forms.DataGridTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;dataGridTextBoxColumn11.Name" xml:space="preserve"><value>dataGridTextBoxColumn11</value></data>
+  <data name="dataGridTextBoxColumn11.MappingName" xml:space="preserve"><value>GLen</value></data>
+  <data name="dataGridTextBoxColumn12.MappingName" xml:space="preserve"><value>MLen</value></data>
+  <data name="&gt;&gt;dataGridTextBoxColumn14.Type" xml:space="preserve"><value>System.Windows.Forms.DataGridTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;dataGridTextBoxColumn14.Name" xml:space="preserve"><value>dataGridTextBoxColumn14</value></data>
+  <data name="&gt;&gt;dataGrid.Parent" xml:space="preserve"><value>panel</value></data>
+  <data name="&gt;&gt;dataGridTextBoxColumn15.Type" xml:space="preserve"><value>System.Windows.Forms.DataGridTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;dataGridTextBoxColumn15.Name" xml:space="preserve"><value>dataGridTextBoxColumn15</value></data>
+  <data name="dataGridTextBoxColumn8.MappingName" xml:space="preserve"><value>Azimuth</value></data>
+  <data name="&gt;&gt;dataGrid.ZOrder" xml:space="preserve"><value>0</value></data>
+  <data name="&gt;&gt;menuAuto.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuAuto.Name" xml:space="preserve"><value>menuAuto</value></data>
+  <data name="&gt;&gt;menuStart.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuStart.Name" xml:space="preserve"><value>menuStart</value></data>
+  <data name="&gt;&gt;menuLOn.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuLOn.Name" xml:space="preserve"><value>menuLOn</value></data>
+  <data name="&gt;&gt;menuItem1.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuItem1.Name" xml:space="preserve"><value>menuItem1</value></data>
+  <data name="dataGridTextBoxColumn9.Width" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>40</value></data>
+  <data name="&gt;&gt;calibMenu.Type" xml:space="preserve"><value>System.Windows.Forms.MainMenu, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;calibMenu.Name" xml:space="preserve"><value>calibMenu</value></data>
+  <data name="dataGridTextBoxColumn6.Width" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>40</value></data>
+  <data name="inProgress.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAA+AAAAYwAAAAs=</value></data><data name="dataGridTextBoxColumn13.MappingName" xml:space="preserve"><value>Alpha</value></data>
+  <data name="saveFileDialog.Filter" xml:space="preserve"><value>Calib File (.cal)|*.cal</value></data>
+  <data name="statusBar.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAPAAAAAWAAAACw==</value></data><data name="&gt;&gt;panel.ZOrder" xml:space="preserve"><value>0</value></data>
+  <data name="&gt;&gt;menuRead.Name" xml:space="preserve"><value>menuRead</value></data>
+  <data name="&gt;&gt;menuRead.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="dataGridTextBoxColumn11.Width" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>32</value></data>
+  <data name="dataGrid.Dock" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+AB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAFAAAACw==</value></data><data name="dataGrid.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAPAAAAD2AAAACw==</value></data><data name="&gt;&gt;panel.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="dataGridTextBoxColumn6.MappingName" xml:space="preserve"><value>My</value></data>
+  <data name="dataGrid.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>0</value></data>
+  <data name="menuStart.Text" xml:space="preserve"><value>Start</value></data>
+  <data name="dataGridTextBoxColumn7.MappingName" xml:space="preserve"><value>Mz</value></data>
+  <data name="menuStop.Text" xml:space="preserve"><value>Stop</value></data>
+  <data name="&gt;&gt;dataGridTableStyle1.Type" xml:space="preserve"><value>System.Windows.Forms.DataGridTableStyle, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;dataGridTableStyle1.Name" xml:space="preserve"><value>dataGridTableStyle1</value></data>
+  <data name="menuLOn.Text" xml:space="preserve"><value>Laser On</value></data>
+  <data name="&gt;&gt;dataGridTextBoxColumn2.Name" xml:space="preserve"><value>dataGridTextBoxColumn2</value></data>
+  <data name="&gt;&gt;dataGridTextBoxColumn2.Type" xml:space="preserve"><value>System.Windows.Forms.DataGridTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;dataGridTextBoxColumn3.Name" xml:space="preserve"><value>dataGridTextBoxColumn3</value></data>
+  <data name="&gt;&gt;dataGridTextBoxColumn3.Type" xml:space="preserve"><value>System.Windows.Forms.DataGridTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="dataGridTextBoxColumn10.Width" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>40</value></data>
+  <data name="&gt;&gt;menuNonlin.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuNonlin.Name" xml:space="preserve"><value>menuNonlin</value></data>
+  <data name="statusBar.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAAAAAA9gAAAAs=</value></data><data name="&gt;&gt;menuDisconn.Name" xml:space="preserve"><value>menuDisconn</value></data>
+  <data name="&gt;&gt;menuDisconn.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="dataGridTextBoxColumn3.Width" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>40</value></data>
+  <data name="&gt;&gt;dataGridTextBoxColumn1.Name" xml:space="preserve"><value>dataGridTextBoxColumn1</value></data>
+  <data name="&gt;&gt;dataGridTextBoxColumn1.Type" xml:space="preserve"><value>System.Windows.Forms.DataGridTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="dataGridTextBoxColumn7.HeaderText" xml:space="preserve"><value>Mz</value></data>
+  <data name="dataGridTextBoxColumn15.Width" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>12</value></data>
+  <data name="&gt;&gt;dataGridTextBoxColumn6.Name" xml:space="preserve"><value>dataGridTextBoxColumn6</value></data>
+  <data name="&gt;&gt;dataGridTextBoxColumn6.Type" xml:space="preserve"><value>System.Windows.Forms.DataGridTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="menuExtra.Text" xml:space="preserve"><value>Extra</value></data>
+  <data name="&gt;&gt;dataGridTextBoxColumn7.Name" xml:space="preserve"><value>dataGridTextBoxColumn7</value></data>
+  <data name="&gt;&gt;dataGridTextBoxColumn7.Type" xml:space="preserve"><value>System.Windows.Forms.DataGridTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuNew.Name" xml:space="preserve"><value>menuNew</value></data>
+  <data name="&gt;&gt;menuNew.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="connFailed.Text" xml:space="preserve"><value>Connection Failed!</value></data>
+  <data name="connFailed.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAHcAAAAZAAAACw==</value></data><data name="&gt;&gt;dataGridTextBoxColumn4.Name" xml:space="preserve"><value>dataGridTextBoxColumn4</value></data>
+  <data name="&gt;&gt;dataGridTextBoxColumn4.Type" xml:space="preserve"><value>System.Windows.Forms.DataGridTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;dataGridTextBoxColumn5.Name" xml:space="preserve"><value>dataGridTextBoxColumn5</value></data>
+  <data name="menuExport.Text" xml:space="preserve"><value>Export...</value></data>
+  <data name="&gt;&gt;dataGridTextBoxColumn5.Type" xml:space="preserve"><value>System.Windows.Forms.DataGridTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;connFailed.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;dataGridTextBoxColumn8.Name" xml:space="preserve"><value>dataGridTextBoxColumn8</value></data>
+  <data name="&gt;&gt;dataGridTextBoxColumn8.Type" xml:space="preserve"><value>System.Windows.Forms.DataGridTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="menuOpen.Text" xml:space="preserve"><value>Open...</value></data>
+  <data name="&gt;&gt;dataGridTextBoxColumn9.Name" xml:space="preserve"><value>dataGridTextBoxColumn9</value></data>
+  <data name="&gt;&gt;dataGridTextBoxColumn9.Type" xml:space="preserve"><value>System.Windows.Forms.DataGridTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="panel.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAAAAAAAAAAAAs=</value></data><data name="dataGridTextBoxColumn9.HeaderText" xml:space="preserve"><value>Incl</value></data>
+  <data name="&gt;&gt;statusBar.ZOrder" xml:space="preserve"><value>1</value></data>
+  <data name="dataGridTextBoxColumn2.MappingName" xml:space="preserve"><value>Gx</value></data>
+  <data name="&gt;&gt;menuMeasure.Name" xml:space="preserve"><value>menuMeasure</value></data>
+  <data name="&gt;&gt;menuMeasure.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="dataGridTextBoxColumn3.HeaderText" xml:space="preserve"><value>Gy</value></data>
+  <data name="menuSave.Text" xml:space="preserve"><value>Save...</value></data>
+  <data name="dataGridTextBoxColumn3.MappingName" xml:space="preserve"><value>Gy</value></data>
+  <data name="&gt;&gt;statusBar.Name" xml:space="preserve"><value>statusBar</value></data>
+  <data name="&gt;&gt;statusBar.Type" xml:space="preserve"><value>System.Windows.Forms.StatusBar, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuOpen.Name" xml:space="preserve"><value>menuOpen</value></data>
+  <data name="dataGridTextBoxColumn5.MappingName" xml:space="preserve"><value>Mx</value></data>
+  <data name="&gt;&gt;menuOpen.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="dataGridTextBoxColumn14.Width" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>28</value></data>
+  <data name="dataGridTextBoxColumn7.Width" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>40</value></data>
+  <data name="menuInitial.Text" xml:space="preserve"><value>Initial</value></data>
+  <data name="&gt;&gt;menuSave.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuSave.Name" xml:space="preserve"><value>menuSave</value></data>
+  <data name="inProgress.Visible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>False</value></data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve"><value>CalibForm</value></data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve"><value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;statusBar.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="panel.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAPAAAAD2AAAACw==</value></data><data name="panel.Dock" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+AB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAABAAAACw==</value></data><data name="&gt;&gt;connFailed.ZOrder" xml:space="preserve"><value>2</value></data>
+  <data name="&gt;&gt;menuEvaluate.Name" xml:space="preserve"><value>menuEvaluate</value></data>
+  <data name="&gt;&gt;menuEvaluate.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;openFileDialog.Type" xml:space="preserve"><value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;openFileDialog.Name" xml:space="preserve"><value>openFileDialog</value></data>
+  <data name="menuConnect.Text" xml:space="preserve"><value>Connect</value></data>
+  <data name="&gt;&gt;contextMenu.Name" xml:space="preserve"><value>contextMenu</value></data>
+  <data name="&gt;&gt;contextMenu.Type" xml:space="preserve"><value>System.Windows.Forms.ContextMenu, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="menuNew.Text" xml:space="preserve"><value>New</value></data>
+  <data name="dataGridTextBoxColumn8.HeaderText" xml:space="preserve"><value>Azi</value></data>
+  <data name="&gt;&gt;menuMenu.Name" xml:space="preserve"><value>menuMenu</value></data>
+  <data name="&gt;&gt;menuMenu.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;inProgress.Type" xml:space="preserve"><value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;inProgress.Name" xml:space="preserve"><value>inProgress</value></data>
+  <data name="menuMeasure.Text" xml:space="preserve"><value>Measure</value></data>
+  <data name="inProgress.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAHcAAAAYAAAACw==</value></data><data name="inProgress.Text" xml:space="preserve"><value>Update in Progress</value></data>
+  <data name="openFileDialog.Filter" xml:space="preserve"><value>Calib File (.cal)|*.cal|All Files|*.*</value></data>
+  <data name="&gt;&gt;menuSep2.Name" xml:space="preserve"><value>menuSep2</value></data>
+  <data name="&gt;&gt;menuSep2.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="menuMenu.Text" xml:space="preserve"><value>Menu</value></data>
+  <data name="&gt;&gt;menuUpdate.Name" xml:space="preserve"><value>menuUpdate</value></data>
+  <data name="&gt;&gt;menuUpdate.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuSep1.Name" xml:space="preserve"><value>menuSep1</value></data>
+  <data name="&gt;&gt;menuSep1.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuSep3.Name" xml:space="preserve"><value>menuSep3</value></data>
+  <data name="&gt;&gt;menuSep3.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="dataGridTextBoxColumn14.HeaderText" xml:space="preserve"><value>Δ</value></data>
+  <data name="dataGridTextBoxColumn13.Width" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>28</value></data>
+  <data name="menuResult.Text" xml:space="preserve"><value>Result</value></data>
+  <data name="dataGridTextBoxColumn12.HeaderText" xml:space="preserve"><value>|M|</value></data>
+  <data name="dataGridTextBoxColumn1.MappingName" xml:space="preserve"><value>Valid</value></data>
+  <data name="&gt;&gt;saveFileDialog.Name" xml:space="preserve"><value>saveFileDialog</value></data>
+  <data name="&gt;&gt;saveFileDialog.Type" xml:space="preserve"><value>System.Windows.Forms.SaveFileDialog, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="menuLOff.Text" xml:space="preserve"><value>Laser Off</value></data>
+  <data name="&gt;&gt;menuResult.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuResult.Name" xml:space="preserve"><value>menuResult</value></data>
+  <data name="&gt;&gt;menuExport.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuExport.Name" xml:space="preserve"><value>menuExport</value></data>
+  <data name="&gt;&gt;inProgress.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="menuEvaluate.Text" xml:space="preserve"><value>Evaluate</value></data>
+  <data name="&gt;&gt;menuLOff.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuLOff.Name" xml:space="preserve"><value>menuLOff</value></data>
+  <data name="connFailed.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAA+AAAANgAAAAs=</value></data></root>

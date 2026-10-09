@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="$this.Text" xml:space="preserve"><value>Kalibracja</value></data>
+  <data name="menuRead.Text" xml:space="preserve"><value>Czytaj</value></data>
+  <data name="txtFileDialog.Filter" xml:space="preserve"><value>Plik tekstwowy (.txt)|*.txt</value></data>
+  <data name="menuDisconn.Text" xml:space="preserve"><value>Rozlacz</value></data>
+  <data name="menuUpdate.Text" xml:space="preserve"><value>Aktualizuj</value></data>
+  <data name="saveFileDialog.Filter" xml:space="preserve"><value>Plik kalibracji (.cal)|*.cal</value></data>
+  <data name="menuExtra.Text" xml:space="preserve"><value>Dodatek</value></data>
+  <data name="connFailed.Text" xml:space="preserve"><value>Polaczenie nieudane!</value></data>
+  <data name="menuExport.Text" xml:space="preserve"><value>Eksportuj…</value></data>
+  <data name="menuOpen.Text" xml:space="preserve"><value>Otworz…</value></data>
+  <data name="menuSave.Text" xml:space="preserve"><value>Zapisz…</value></data>
+  <data name="menuInitial.Text" xml:space="preserve"><value>Wstepny</value></data>
+  <data name="menuConnect.Text" xml:space="preserve"><value>Polacz</value></data>
+  <data name="menuNew.Text" xml:space="preserve"><value>Nowy</value></data>
+  <data name="inProgress.Text" xml:space="preserve"><value>Aktualizacja w toku</value></data>
+  <data name="openFileDialog.Filter" xml:space="preserve"><value>Plik kalibracji (.cal)|*.cal|Wszystkie pliki|*.*</value></data>
+  <data name="menuEvaluate.Text" xml:space="preserve"><value>Przelicz</value></data>
+  </root>

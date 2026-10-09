@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "application": "PocketTopo 1.372",
+  "source_archive_sha256": "2f06a51ed7e5cf3755339cd3c9e645779fb7295eaf66643c83c92ab65b12f3b9",
+  "assemblies_sha256": {
+    "PocketTopoV1372/de/PocketTopo.resources.dll": "088980f2c9599511c8f3c49acb2822fde75fefe7905d9a7835585771aee79980",
+    "PocketTopoV1372/fr/PocketTopo.resources.dll": "10e71b43ad433d36903b7da14a7f38e946856a9adccc6af0e65f6bfe89203034",
+    "PocketTopoV1372/pl/PocketTopo.resources.dll": "427cb5e6f6405b0b271f3014d4e9b389e30f8fca7404a86a86685d27893bf714",
+    "PocketTopoV1372/PocketTopo.exe": "048cf57b874238ac142f1e4d3446af639ce3760b4a91724ea00bcc320eb5c371",
+    "PocketTopoV1372/sl/PocketTopo.resources.dll": "fc87b4c5947eedd1e36daaad92d55548f27cd72a39af7665936f8133c6920874"
+  },
+  "lockfile_sha256": "5cbef0187075f161cea78264a8bad970efcc377a2ef7bfb3d5c1fe92ff939bc9",
+  "script_sha256": "b40465eb0021e01d67e09535716711eddfad3339ccc58a04d27fb73b298c0174",
+  "tools": {
+    "ilspycmd": "9.1.0.7988",
+    "dotnet_runtime": "8.0.31",
+    "reference_assemblies": "Microsoft.NETFramework.ReferenceAssemblies.net20 1.0.3"
+  },
+  "main_exe_counts": {
+    "csharp_files": 56,
+    "csharp_lines": 15469,
+    "types": 73,
+    "methods": 849,
+    "managed_il_bodies": 829,
+    "native_imports": 4,
+    "abstract_methods": 16
+  },
+  "decompilation_exit_codes": {
+    "main-csharp": 0,
+    "main-il": 0,
+    "de": 0,
+    "fr": 0,
+    "pl": 0,
+    "sl": 0
+  },
+  "rebuilt_application_tested": false
+}

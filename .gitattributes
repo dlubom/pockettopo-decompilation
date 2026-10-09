@@ -1,0 +1,12 @@
+* text=auto
+*.cs text eol=lf
+*.csproj text eol=lf
+*.resx text eol=lf
+*.il text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.json text eol=lf
+decompiled/SHA256SUMS text eol=lf
+*.zip -text
+*.ico -text

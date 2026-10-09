@@ -1,0 +1,1140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="&gt;&gt;saveChanges.Type" xml:space="preserve"><value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;saveChanges.Name" xml:space="preserve"><value>saveChanges</value></data>
+  <data name="pictSelBlue.Image" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA1gAAAAJCTdYAAAAAAAAA
+dgAAACgAAAAMAAAADAAAAAEABAAAAAAAAAAAAMQOAADEDgAAEAAAABAAAAAAAAD/AACA/wCAAP8A
+gID/gAAA/4AAgP+AgAD/wMDA/4CAgP8AAP//AP8A/wD/////AAD//wD/////AP//////AAAAAAAA
+AAAP//////AAAA//zMz/8AAAD/zMzM/wAAAPzMzMzPAAAA/MzMzM8AAAD8zMzMzwAAAPzMzMzPAA
+AA/8zMzP8AAAD//MzP/wAAAP//////AAAAAAAAAAAAAACw==</value></data><data name="menuXSect.Text" xml:space="preserve"><value>XSection |</value></data>
+  <data name="menuSep11.Text" xml:space="preserve"><value>-</value></data>
+  <data name="dataGridTextBoxColumnR2.MappingName" xml:space="preserve"><value>E</value></data>
+  <data name="&gt;&gt;menuExit.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuExit.Name" xml:space="preserve"><value>menuExit</value></data>
+  <data name="panelData.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAPAAAAAMAQAACw==</value></data><data name="pictRed.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAACEAAAAAwAAAAs=</value></data><data name="&gt;&gt;pictSelGray.Type" xml:space="preserve"><value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;pictSelGray.Name" xml:space="preserve"><value>pictSelGray</value></data>
+  <data name="menuXSectH.Text" xml:space="preserve"><value>XSection –</value></data>
+  <data name="menuSep2.Text" xml:space="preserve"><value>-</value></data>
+  <data name="dataGridTextBoxColumn4.Width" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>38</value></data>
+  <data name="&gt;&gt;toolBarRedo.Type" xml:space="preserve"><value>System.Windows.Forms.ToolBarButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;toolBarRedo.Name" xml:space="preserve"><value>toolBarRedo</value></data>
+  <data name="fileError.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAyAAAAuQAAAAs=</value></data><data name="menuSep13.Text" xml:space="preserve"><value>-</value></data>
+  <data name="menuSep1.Text" xml:space="preserve"><value>-</value></data>
+  <data name="pictSelBlue.Visible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>False</value></data>
+  <data name="&gt;&gt;planContextMenu.Type" xml:space="preserve"><value>System.Windows.Forms.ContextMenu, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;planContextMenu.Name" xml:space="preserve"><value>planContextMenu</value></data>
+  <data name="menuExit.Text" xml:space="preserve"><value>Exit</value></data>
+  <data name="pictSelOrange.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAACWAAAAAwAAAAs=</value></data><data name="menuSep10.Text" xml:space="preserve"><value>-</value></data>
+  <data name="menuSep4.Text" xml:space="preserve"><value>-</value></data>
+  <data name="&gt;&gt;pictSelBlue.ZOrder" xml:space="preserve"><value>4</value></data>
+  <data name="menuSTrip.Text" xml:space="preserve"><value>Trip...</value></data>
+  <data name="menuSep15.Text" xml:space="preserve"><value>-</value></data>
+  <data name="menuThick.Text" xml:space="preserve"><value>Thick Lines</value></data>
+  <data name="&gt;&gt;database.Name" xml:space="preserve"><value>database</value></data>
+  <data name="&gt;&gt;database.Type" xml:space="preserve"><value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="menuSep3.Text" xml:space="preserve"><value>-</value></data>
+  <data name="menuSep7.Enabled" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>False</value></data>
+  <data name="dataGridTextBoxColumnR5.Width" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>12</value></data>
+  <data name="menuSep12.Text" xml:space="preserve"><value>-</value></data>
+  <data name="menuSep6.Text" xml:space="preserve"><value>-</value></data>
+  <data name="menuUndo.Enabled" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>False</value></data>
+  <data name="mapView.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAPAAAAAMAQAACw==</value></data><data name="menuSep17.Text" xml:space="preserve"><value>-</value></data>
+  <data name="mapView.Dock" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+AB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAFAAAACw==</value></data><data name="&gt;&gt;panelPaint.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="menuSep5.Text" xml:space="preserve"><value>-</value></data>
+  <data name="menuDumpP.Text" xml:space="preserve"><value>Screenshot...</value></data>
+  <data name="pictMove.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAqAAAAAwAAAAs=</value></data><data name="saveChanges.Visible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>False</value></data>
+  <data name="menuRPaste.Text" xml:space="preserve"><value>Paste</value></data>
+  <data name="dataGridRef.Visible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>False</value></data>
+  <data name="menuSep14.Text" xml:space="preserve"><value>-</value></data>
+  <data name="menuSep8.Text" xml:space="preserve"><value>-</value></data>
+  <data name="menuRenum.Text" xml:space="preserve"><value>Renumber</value></data>
+  <data name="menuDumpS.Text" xml:space="preserve"><value>Screenshot...</value></data>
+  <data name="&gt;&gt;pictBlack.ZOrder" xml:space="preserve"><value>16</value></data>
+  <data name="&gt;&gt;menuNone.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuNone.Name" xml:space="preserve"><value>menuNone</value></data>
+  <data name="menuSep19.Text" xml:space="preserve"><value>-</value></data>
+  <data name="moveLU.Anchor" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ACFTeXN0ZW0uV2luZG93cy5Gb3Jtcy5BbmNob3JTdHlsZXMBAAAAB3ZhbHVlX18ACAIAAAAKAAAA
+Cw==</value></data><data name="menuSep7.Text" xml:space="preserve"><value>-</value></data>
+  <data name="dataGridTextBoxColumn4.MappingName" xml:space="preserve"><value>Azimuth</value></data>
+  <data name="menuSep16.Text" xml:space="preserve"><value>-</value></data>
+  <data name="menuS2D.Text" xml:space="preserve"><value>-&gt; Data</value></data>
+  <data name="menuOpt.Text" xml:space="preserve"><value>Options</value></data>
+  <data name="&gt;&gt;pictSelBrown.Type" xml:space="preserve"><value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;pictSelBrown.Name" xml:space="preserve"><value>pictSelBrown</value></data>
+  <data name="menuO2S.Text" xml:space="preserve"><value>-&gt; Side View</value></data>
+  <data name="textData.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>5</value></data>
+  <data name="menuSep9.Text" xml:space="preserve"><value>-</value></data>
+  <data name="dataGrid.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAAAAAAAAAAAAs=</value></data><data name="$this.Text" xml:space="preserve"><value>PocketTopo</value></data>
+  <data name="&gt;&gt;menuM2S.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="menuAuto.Text" xml:space="preserve"><value>Auto</value></data>
+  <data name="&gt;&gt;menuM2S.Name" xml:space="preserve"><value>menuM2S</value></data>
+  <data name="menuSep18.Text" xml:space="preserve"><value>-</value></data>
+  <data name="pictSelBlack.Visible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>False</value></data>
+  <data name="dataGridRef.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>6</value></data>
+  <data name="&gt;&gt;textComm.Type" xml:space="preserve"><value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;textComm.Name" xml:space="preserve"><value>textComm</value></data>
+  <data name="moveRU.Image" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA1gAAAAJCTdYAAAAAAAAA
+dgAAACgAAAAMAAAADAAAAAEABAAAAAAAAAAAAMQOAADEDgAAEAAAABAAAAAAAAD/AACA/wCAAP8A
+gID/gAAA/4AAgP+AgAD/wMDA/4CAgP8AAP//AP8A/wD/////AAD//wD/////AP//////AAAAAAAA
+AAAHd3d3d3AAAAcHd3d3cAAAB3B3d3dwAAAHdwd3d3AAAAd3cHdwcAAAB3d3B3BwAAAHd3dwcHAA
+AAd3d3cAcAAAB3dwAABwAAAHd3d3d3AAAAAAAAAAAAAACw==</value></data><data name="&gt;&gt;pictSelOrange.ZOrder" xml:space="preserve"><value>2</value></data>
+  <data name="pictSelDelete.SizeMode" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ACdTeXN0ZW0uV2luZG93cy5Gb3Jtcy5QaWN0dXJlQm94U2l6ZU1vZGUBAAAAB3ZhbHVlX18ACAIA
+AAABAAAACw==</value></data><data name="menuRedo.Text" xml:space="preserve"><value>Redo</value></data>
+  <data name="menuNone.Text" xml:space="preserve"><value>None</value></data>
+  <data name="pictMove.SizeMode" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ACdTeXN0ZW0uV2luZG93cy5Gb3Jtcy5QaWN0dXJlQm94U2l6ZU1vZGUBAAAAB3ZhbHVlX18ACAIA
+AAABAAAACw==</value></data><data name="&gt;&gt;menuR2S.Name" xml:space="preserve"><value>menuR2S</value></data>
+  <data name="&gt;&gt;menuR2S.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="pictGray.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAABOAAAAAwAAAAs=</value></data><data name="menuCalib.Text" xml:space="preserve"><value>Calibration...</value></data>
+  <data name="&gt;&gt;menuRenum.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuRenum.Name" xml:space="preserve"><value>menuRenum</value></data>
+  <data name="pictSelMove.Image" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA1gAAAAJCTdYAAAAAAAAA
+dgAAACgAAAAMAAAADAAAAAEABAAAAAAAAAAAAMQOAADEDgAAEAAAABAAAAAAAAD/AACA/wCAAP8A
+gID/gAAA/4AAgP+AgAD/wMDA/4CAgP8AAP//AP8A/wD/////AAD//wD/////AP//////AAAAAAAA
+AAAP//8AD/AAAA8P/wD/8AAADwDwAP/wAAAPAAAP//AAAA8AAAAA8AAADwAAAA/wAAAPAAAA//AA
+AA8AAA//8AAADwAA///wAAAPAA////AAAAAAAAAAAAAACw==</value></data><data name="pictSelGreen.SizeMode" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ACdTeXN0ZW0uV2luZG93cy5Gb3Jtcy5QaWN0dXJlQm94U2l6ZU1vZGUBAAAAB3ZhbHVlX18ACAIA
+AAABAAAACw==</value></data><data name="&gt;&gt;menuConnect.Name" xml:space="preserve"><value>menuConnect</value></data>
+  <data name="&gt;&gt;menuConnect.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="pictSelBlack.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAAwAAAAMAAAACw==</value></data><data name="menuS2O.Text" xml:space="preserve"><value>-&gt; Outline</value></data>
+  <data name="&gt;&gt;pictBlue.Type" xml:space="preserve"><value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;pictBlue.Name" xml:space="preserve"><value>pictBlue</value></data>
+  <data name="dataGridTextBoxColumn5.HeaderText" xml:space="preserve"><value>  Incl</value></data>
+  <data name="menuPaste.Text" xml:space="preserve"><value>Paste</value></data>
+  <data name="menuToBranch.Text" xml:space="preserve"><value>Shot -&gt;</value></data>
+  <data name="pictSelMove.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAqAAAAAwAAAAs=</value></data><data name="pictSelRed.Image" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA1gAAAAJCTdYAAAAAAAAA
+dgAAACgAAAAMAAAADAAAAAEABAAAAAAAAAAAAMQOAADEDgAAEAAAABAAAAAAAAD/AACA/wCAAP8A
+gID/gAAA/4AAgP+AgAD/wMDA/4CAgP8AAP//AP8A/wD/////AAD//wD/////AP//////AAAAAAAA
+AAAP//////AAAA//mZn/8AAAD/mZmZ/wAAAPmZmZmfAAAA+ZmZmZ8AAAD5mZmZnwAAAPmZmZmfAA
+AA/5mZmf8AAAD/+Zmf/wAAAP//////AAAAAAAAAAAAAACw==</value></data><data name="dataGridTextBoxColumnR4.HeaderText" xml:space="preserve"><value>Alt</value></data>
+  <data name="&gt;&gt;pictSelOrange.Parent" xml:space="preserve"><value>panelPaint</value></data>
+  <data name="pictBlue.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAAwAAAAMAAAACw==</value></data><data name="&gt;&gt;mapContextMenu.Type" xml:space="preserve"><value>System.Windows.Forms.ContextMenu, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;mapContextMenu.Name" xml:space="preserve"><value>mapContextMenu</value></data>
+  <data name="pictSelGray.Image" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA1gAAAAJCTdYAAAAAAAAA
+dgAAACgAAAAMAAAADAAAAAEABAAAAAAAAAAAAMQOAADEDgAAEAAAABAAAAAAAAD/AACA/wCAAP8A
+gID/gAAA/4AAgP+AgAD/wMDA/4CAgP8AAP//AP8A/wD/////AAD//wD/////AP//////AAAAAAAA
+AAAP//////AAAA//d3f/8AAAD/d3d3/wAAAPd3d3d/AAAA93d3d38AAAD3d3d3fwAAAPd3d3d/AA
+AA/3d3d/8AAAD/93d//wAAAP//////AAAAAAAAAAAAAACw==</value></data><data name="menuFile.Text" xml:space="preserve"><value>File</value></data>
+  <data name="menuBluetooth.Text" xml:space="preserve"><value>Bluetooth</value></data>
+  <data name="&gt;&gt;txtFileDialog.Type" xml:space="preserve"><value>System.Windows.Forms.SaveFileDialog, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;txtFileDialog.Name" xml:space="preserve"><value>txtFileDialog</value></data>
+  <data name="menuS2M.Text" xml:space="preserve"><value>-&gt; Map</value></data>
+  <data name="menuD2M.Text" xml:space="preserve"><value>-&gt; Map</value></data>
+  <data name="&gt;&gt;menuNewCave.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuNewCave.Name" xml:space="preserve"><value>menuNewCave</value></data>
+  <data name="mapView.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAAAAAAAAAAAAs=</value></data><data name="toolBarRedo.Enabled" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>False</value></data>
+  <data name="dataGridTextBoxColumn1.Width" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>45</value></data>
+  <data name="menuOptP.Text" xml:space="preserve"><value>Options</value></data>
+  <data name="pictSelOrange.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAAwAAAAMAAAACw==</value></data><data name="dataGridTextBoxColumnR5.MappingName" xml:space="preserve"><value>Comment</value></data>
+  <data name="moveLU.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAAwAAAAMAAAACw==</value></data><data name="txtFileDialog.Filter" xml:space="preserve"><value>Text File (.txt)|*.txt</value></data>
+  <data name="pictBlack.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAAwAAAAMAAAACw==</value></data><data name="menuXSectV.Text" xml:space="preserve"><value>XSection |</value></data>
+  <data name="moveLU.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAADkAAAAAAEAAAs=</value></data><data name="menuItem1.Text" xml:space="preserve"><value>-</value></data>
+  <data name="menuD2O.Text" xml:space="preserve"><value>-&gt; Outline</value></data>
+  <data name="menuDisconn.Text" xml:space="preserve"><value>Disconnect</value></data>
+  <data name="&gt;&gt;menuMeter.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuMeter.Name" xml:space="preserve"><value>menuMeter</value></data>
+  <data name="pictSelGreen.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAAwAAAAMAAAACw==</value></data><data name="$this.ClientSize" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAPAAAAAMAQAACw==</value></data><data name="&gt;&gt;dataContextMenu.Type" xml:space="preserve"><value>System.Windows.Forms.ContextMenu, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;dataContextMenu.Name" xml:space="preserve"><value>dataContextMenu</value></data>
+  <data name="pictSelBrown.Visible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>False</value></data>
+  <data name="&gt;&gt;references.Type" xml:space="preserve"><value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;references.Name" xml:space="preserve"><value>references</value></data>
+  <data name="&gt;&gt;menuSTrip.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuSTrip.Name" xml:space="preserve"><value>menuSTrip</value></data>
+  <data name="&gt;&gt;sideContextMenu.Type" xml:space="preserve"><value>System.Windows.Forms.ContextMenu, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;sideContextMenu.Name" xml:space="preserve"><value>sideContextMenu</value></data>
+  <data name="&gt;&gt;menuIds.Name" xml:space="preserve"><value>menuIds</value></data>
+  <data name="&gt;&gt;menuIds.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="toolBarMap.ImageIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>2</value></data>
+  <data name="pictSelBlue.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAByAAAAAwAAAAs=</value></data><data name="menuOptS.Text" xml:space="preserve"><value>Options</value></data>
+  <data name="pictSelRed.SizeMode" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ACdTeXN0ZW0uV2luZG93cy5Gb3Jtcy5QaWN0dXJlQm94U2l6ZU1vZGUBAAAAB3ZhbHVlX18ACAIA
+AAABAAAACw==</value></data><data name="menuDumpM.Text" xml:space="preserve"><value>Screenshot...</value></data>
+  <data name="menuRComm.Text" xml:space="preserve"><value>Comment</value></data>
+  <data name="menuCopy.Text" xml:space="preserve"><value>Copy</value></data>
+  <data name="pictOrange.SizeMode" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ACdTeXN0ZW0uV2luZG93cy5Gb3Jtcy5QaWN0dXJlQm94U2l6ZU1vZGUBAAAAB3ZhbHVlX18ACAIA
+AAABAAAACw==</value></data><data name="&gt;&gt;pictBrown.Parent" xml:space="preserve"><value>panelPaint</value></data>
+  <data name="panelData.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAAAAAAAAAAAAs=</value></data><data name="&gt;&gt;pictSelDelete.Name" xml:space="preserve"><value>pictSelDelete</value></data>
+  <data name="&gt;&gt;pictSelDelete.Type" xml:space="preserve"><value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;panelData.ZOrder" xml:space="preserve"><value>4</value></data>
+  <data name="&gt;&gt;dataGrid.Name" xml:space="preserve"><value>dataGrid</value></data>
+  <data name="&gt;&gt;dataGrid.Type" xml:space="preserve"><value>System.Windows.Forms.DataGrid, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="pictSelGray.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAABOAAAAAwAAAAs=</value></data><data name="&gt;&gt;panelData.Name" xml:space="preserve"><value>panelData</value></data>
+  <data name="&gt;&gt;panelData.Type" xml:space="preserve"><value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuSep23.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuSep23.Name" xml:space="preserve"><value>menuSep23</value></data>
+  <data name="textComm.Multiline" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="&gt;&gt;panelData.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;sketchView.Parent" xml:space="preserve"><value>panelPaint</value></data>
+  <data name="&gt;&gt;toolBar.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="menuOptM.Text" xml:space="preserve"><value>Options</value></data>
+  <data name="menuD2S.Text" xml:space="preserve"><value>-&gt; Side View</value></data>
+  <data name="&gt;&gt;pictMove.Parent" xml:space="preserve"><value>panelPaint</value></data>
+  <data name="&gt;&gt;menuSep22.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuSep22.Name" xml:space="preserve"><value>menuSep22</value></data>
+  <data name="&gt;&gt;toolBarSep.Name" xml:space="preserve"><value>toolBarSep</value></data>
+  <data name="&gt;&gt;toolBarSep.Type" xml:space="preserve"><value>System.Windows.Forms.ToolBarButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="menuExpText.Text" xml:space="preserve"><value>Text...</value></data>
+  <data name="&gt;&gt;toolBar.ZOrder" xml:space="preserve"><value>0</value></data>
+  <data name="&gt;&gt;pictBrown.ZOrder" xml:space="preserve"><value>14</value></data>
+  <data name="pictSelGreen.Image" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA1gAAAAJCTdYAAAAAAAAA
+dgAAACgAAAAMAAAADAAAAAEABAAAAAAAAAAAAMQOAADEDgAAEAAAABAAAAAAAAD/AACA/wDAAP8A
+gID/gAAA/4AAgP+AgAD/wMDA/4CAgP8AAP//AP8A/wD/////AAD//wD/////AP//////AAAAAAAA
+AAAP//////AAAA//IiL/8AAAD/IiIi/wAAAPIiIiIvAAAA8iIiIi8AAADyIiIiLwAAAPIiIiIvAA
+AA/yIiIv8AAAD/8iIv/wAAAP//////AAAAAAAAAAAAAACw==</value></data><data name="pictDelete.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAAwAAAAMAAAACw==</value></data><data name="&gt;&gt;menuSep21.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuSep21.Name" xml:space="preserve"><value>menuSep21</value></data>
+  <data name="&gt;&gt;menuExpDXF.Name" xml:space="preserve"><value>menuExpDXF</value></data>
+  <data name="&gt;&gt;menuExpDXF.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="pictSelMove.SizeMode" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ACdTeXN0ZW0uV2luZG93cy5Gb3Jtcy5QaWN0dXJlQm94U2l6ZU1vZGUBAAAAB3ZhbHVlX18ACAIA
+AAABAAAACw==</value></data><data name="&gt;&gt;textComm.ZOrder" xml:space="preserve"><value>1</value></data>
+  <data name="menuPort.Text" xml:space="preserve"><value>Port</value></data>
+  <data name="&gt;&gt;menuSep20.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuSep20.Name" xml:space="preserve"><value>menuSep20</value></data>
+  <data name="dataGridTextBoxColumn1.HeaderText" xml:space="preserve"><value>  From</value></data>
+  <data name="pictSelRed.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAAwAAAAMAAAACw==</value></data><data name="&gt;&gt;menuRComm.Name" xml:space="preserve"><value>menuRComm</value></data>
+  <data name="&gt;&gt;menuRComm.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="menuIdsP.Text" xml:space="preserve"><value>Show IDs</value></data>
+  <data name="pictSelBrown.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAABgAAAAAwAAAAs=</value></data><data name="&gt;&gt;textData.Parent" xml:space="preserve"><value>panelData</value></data>
+  <data name="&gt;&gt;toolBar.Name" xml:space="preserve"><value>toolBar</value></data>
+  <data name="&gt;&gt;toolBar.Type" xml:space="preserve"><value>System.Windows.Forms.ToolBar, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="pictOrange.Image" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA1gAAAAJCTdYAAAAAAAAA
+dgAAACgAAAAMAAAADAAAAAEABAAAAAAAAAAAAMQOAADEDgAAEAAAABAAAAAAAAD/AACA/wCAAP8A
+gP//gAAA/4AAgP+AgAD/wMDA/4CAgP8AAP//AP8A/wD/////AAD//wD/////AP//////////////
+AAD///////8AAP//MzP//wAA//MzMz//AAD/MzMzM/8AAP8zMzMz/wAA/zMzMzP/AAD/MzMzM/8A
+AP/zMzM//wAA//8zM///AAD///////8AAP///////wAACw==</value></data><data name="&gt;&gt;textData.ZOrder" xml:space="preserve"><value>0</value></data>
+  <data name="&gt;&gt;menuO2M.Name" xml:space="preserve"><value>menuO2M</value></data>
+  <data name="&gt;&gt;menuO2M.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="toolBarMinus.ImageIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>6</value></data>
+  <data name="&gt;&gt;sketchView.ZOrder" xml:space="preserve"><value>22</value></data>
+  <data name="menuRCopy.Text" xml:space="preserve"><value>Copy</value></data>
+  <data name="toolBarPlus.ImageIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>5</value></data>
+  <data name="menuCloseAct.Text" xml:space="preserve"><value>Close Actual</value></data>
+  <data name="&gt;&gt;pictSelGray.Parent" xml:space="preserve"><value>panelPaint</value></data>
+  <data name="&gt;&gt;menuPort.Name" xml:space="preserve"><value>menuPort</value></data>
+  <data name="&gt;&gt;menuPort.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="pictBlue.Image" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA1gAAAAJCTdYAAAAAAAAA
+dgAAACgAAAAMAAAADAAAAAEABAAAAAAAAAAAAMQOAADEDgAAEAAAABAAAAAAAAD/AACA/wCAAP8A
+gID/gAAA/4AAgP+AgAD/wMDA/4CAgP8AAP//AP8A/wD/////AAD//wD/////AP//////////////
+AAD///////8AAP//zMz//wAA//zMzM//AAD/zMzMzP8AAP/MzMzM/wAA/8zMzMz/AAD/zMzMzP8A
+AP/8zMzP/wAA///MzP//AAD///////8AAP///////wAACw==</value></data><data name="&gt;&gt;dataGridTableStyleRef.Type" xml:space="preserve"><value>System.Windows.Forms.DataGridTableStyle, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;dataGridTableStyleRef.Name" xml:space="preserve"><value>dataGridTableStyleRef</value></data>
+  <data name="&gt;&gt;menuReverse.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuReverse.Name" xml:space="preserve"><value>menuReverse</value></data>
+  <data name="&gt;&gt;menuExpText.Name" xml:space="preserve"><value>menuExpText</value></data>
+  <data name="&gt;&gt;menuExpText.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="moveLD.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAADkAAAAAAAAAAs=</value></data><data name="dataGridTextBoxColumnR3.MappingName" xml:space="preserve"><value>N</value></data>
+  <data name="dataGridTextBoxColumn4.HeaderText" xml:space="preserve"><value>  Azi</value></data>
+  <data name="sketchView.Dock" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+AB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAFAAAACw==</value></data><data name="sketchView.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAPAAAAAMAQAACw==</value></data><data name="menuIdsS.Text" xml:space="preserve"><value>Show IDs</value></data>
+  <data name="moveLD.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAAwAAAAMAAAACw==</value></data><data name="pictMove.Image" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA1gAAAAJCTdYAAAAAAAAA
+dgAAACgAAAAMAAAADAAAAAEABAAAAAAAAAAAAMQOAADEDgAAEAAAABAAAAAAAAD/AACA/wCAAP8A
+gID/gAAA/4AAgP+AgAD/wMDA/4CAgP8AAP//AP8A/wD/////AAD//wD/////AP//////////8A//
+AAD///8AD/8AAP8P/wD//wAA/wDwAP//AAD/AAAP//8AAP8AAAAA/wAA/wAAAA//AAD/AAAA//8A
+AP8AAA///wAA/wAA////AAD/AA////8AAP8A/////wAACw==</value></data><data name="&gt;&gt;pictSelGray.ZOrder" xml:space="preserve"><value>6</value></data>
+  <data name="fileError.Text" xml:space="preserve"><value>File Read Error in </value></data>
+  <data name="fileError.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAIoAAAAmAAAACw==</value></data><data name="&gt;&gt;dataGridRef.Parent" xml:space="preserve"><value>panelData</value></data>
+  <data name="pictBlue.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAByAAAAAwAAAAs=</value></data><data name="toolBarUndo.ImageIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>7</value></data>
+  <data name="&gt;&gt;pictSelBlack.ZOrder" xml:space="preserve"><value>7</value></data>
+  <data name="dataGridTextBoxColumn5.Width" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>38</value></data>
+  <data name="&gt;&gt;menuInsert.Name" xml:space="preserve"><value>menuInsert</value></data>
+  <data name="&gt;&gt;menuInsert.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;dataGridRef.ZOrder" xml:space="preserve"><value>2</value></data>
+  <data name="sketchView.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>1</value></data>
+  <data name="&gt;&gt;menuRCopy.Name" xml:space="preserve"><value>menuRCopy</value></data>
+  <data name="&gt;&gt;menuRCopy.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="moveLD.Visible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>False</value></data>
+  <data name="textComm.Visible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>False</value></data>
+  <data name="&gt;&gt;menuSmart.Name" xml:space="preserve"><value>menuSmart</value></data>
+  <data name="&gt;&gt;menuSmart.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="toolBarSketch.ImageIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>3</value></data>
+  <data name="&gt;&gt;menuR2O.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuR2O.Name" xml:space="preserve"><value>menuR2O</value></data>
+  <data name="dataGridTextBoxColumn2.HeaderText" xml:space="preserve"><value>    To</value></data>
+  <data name="pictSelOrange.Visible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>False</value></data>
+  <data name="menuGrad.Text" xml:space="preserve"><value>400g</value></data>
+  <data name="&gt;&gt;menuO2D.Name" xml:space="preserve"><value>menuO2D</value></data>
+  <data name="&gt;&gt;menuO2D.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="dataGridTextBoxColumn2.Width" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>45</value></data>
+  <data name="&gt;&gt;menuInfo.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuInfo.Name" xml:space="preserve"><value>menuInfo</value></data>
+  <data name="pictSelDelete.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAC6AAAAAwAAAAs=</value></data><data name="menuRDelete.Text" xml:space="preserve"><value>Delete Row</value></data>
+  <data name="&gt;&gt;pictSelBlack.Parent" xml:space="preserve"><value>panelPaint</value></data>
+  <data name="&gt;&gt;menuR2M.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuR2M.Name" xml:space="preserve"><value>menuR2M</value></data>
+  <data name="&gt;&gt;menuSaveAs.Name" xml:space="preserve"><value>menuSaveAs</value></data>
+  <data name="&gt;&gt;menuSaveAs.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="pictOrange.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAACWAAAAAwAAAAs=</value></data><data name="pictOrange.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAAwAAAAMAAAACw==</value></data><data name="&gt;&gt;pictMove.ZOrder" xml:space="preserve"><value>17</value></data>
+  <data name="&gt;&gt;pictSelDelete.Parent" xml:space="preserve"><value>panelPaint</value></data>
+  <data name="&gt;&gt;menuGrad.Name" xml:space="preserve"><value>menuGrad</value></data>
+  <data name="&gt;&gt;menuGrad.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="menuLoops.Text" xml:space="preserve"><value>Loops</value></data>
+  <data name="&gt;&gt;moveRD.Name" xml:space="preserve"><value>moveRD</value></data>
+  <data name="&gt;&gt;moveRD.Type" xml:space="preserve"><value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;dataGrid.Parent" xml:space="preserve"><value>panelData</value></data>
+  <data name="panelMap.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAPAAAAAMAQAACw==</value></data><data name="pictSelBlue.SizeMode" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ACdTeXN0ZW0uV2luZG93cy5Gb3Jtcy5QaWN0dXJlQm94U2l6ZU1vZGUBAAAAB3ZhbHVlX18ACAIA
+AAABAAAACw==</value></data><data name="&gt;&gt;imageList.Name" xml:space="preserve"><value>imageList</value></data>
+  <data name="&gt;&gt;imageList.Type" xml:space="preserve"><value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="pictSelBlue.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAAwAAAAMAAAACw==</value></data><data name="dataGridTextBoxColumnR2.Width" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>55</value></data>
+  <data name="dataGridTextBoxColumnR1.MappingName" xml:space="preserve"><value>Id</value></data>
+  <data name="menuInfo.Text" xml:space="preserve"><value>Info...</value></data>
+  <data name="&gt;&gt;textComm.Parent" xml:space="preserve"><value>panelData</value></data>
+  <data name="&gt;&gt;menuAll.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuAll.Name" xml:space="preserve"><value>menuAll</value></data>
+  <data name="menuIds.Text" xml:space="preserve"><value>Show IDs</value></data>
+  <data name="&gt;&gt;panelMap.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;dataGrid.ZOrder" xml:space="preserve"><value>3</value></data>
+  <data name="&gt;&gt;menuComX.Name" xml:space="preserve"><value>menuComX</value></data>
+  <data name="&gt;&gt;menuComX.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="moveRD.SizeMode" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ACdTeXN0ZW0uV2luZG93cy5Gb3Jtcy5QaWN0dXJlQm94U2l6ZU1vZGUBAAAAB3ZhbHVlX18ACAIA
+AAABAAAACw==</value></data><data name="&gt;&gt;pictSelGreen.Name" xml:space="preserve"><value>pictSelGreen</value></data>
+  <data name="&gt;&gt;pictSelGreen.Type" xml:space="preserve"><value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuCloseNone.Name" xml:space="preserve"><value>menuCloseNone</value></data>
+  <data name="&gt;&gt;menuCloseNone.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="textData.Multiline" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="&gt;&gt;menuImport.Name" xml:space="preserve"><value>menuImport</value></data>
+  <data name="&gt;&gt;menuImport.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuAuto.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuAuto.Name" xml:space="preserve"><value>menuAuto</value></data>
+  <data name="textComm.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAANUAAABUAAAACw==</value></data><data name="sketchView.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAAAAAAAAAAAAs=</value></data><data name="dataGridTextBoxColumnR1.HeaderText" xml:space="preserve"><value>ID</value></data>
+  <data name="panelPaint.Visible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>False</value></data>
+  <data name="pictRed.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAAwAAAAMAAAACw==</value></data><data name="&gt;&gt;menuStart.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuStart.Name" xml:space="preserve"><value>menuStart</value></data>
+  <data name="saveChanges.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAA+AAAAwgAAAAs=</value></data><data name="moveRD.Visible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>False</value></data>
+  <data name="toolBarData.ImageIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>0</value></data>
+  <data name="&gt;&gt;menuLOn.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuLOn.Name" xml:space="preserve"><value>menuLOn</value></data>
+  <data name="moveRD.Image" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA1gAAAAJCTdYAAAAAAAAA
+dgAAACgAAAAMAAAADAAAAAEABAAAAAAAAAAAAMQOAADEDgAAEAAAABAAAAAAAAD/AACA/wCAAP8A
+gID/gAAA/4AAgP+AgAD/wMDA/4CAgP8AAP//AP8A/wD/////AAD//wD/////AP//////AAAAAAAA
+AAAHd3d3d3AAAAd3cAAAcAAAB3d3dwBwAAAHd3dwcHAAAAd3dwdwcAAAB3dwd3BwAAAHdwd3d3AA
+AAdwd3d3cAAABwd3d3dwAAAHd3d3d3AAAAAAAAAAAAAACw==</value></data><data name="&gt;&gt;menuItem1.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuItem1.Name" xml:space="preserve"><value>menuItem1</value></data>
+  <data name="&gt;&gt;menuTitle.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuTitle.Name" xml:space="preserve"><value>menuTitle</value></data>
+  <data name="&gt;&gt;menuS2D.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuS2D.Name" xml:space="preserve"><value>menuS2D</value></data>
+  <data name="&gt;&gt;menuO2S.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuO2S.Name" xml:space="preserve"><value>menuO2S</value></data>
+  <data name="&gt;&gt;pictSelMove.ZOrder" xml:space="preserve"><value>8</value></data>
+  <data name="&gt;&gt;menuRedo.Name" xml:space="preserve"><value>menuRedo</value></data>
+  <data name="&gt;&gt;menuRedo.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="pictSelBrown.SizeMode" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ACdTeXN0ZW0uV2luZG93cy5Gb3Jtcy5QaWN0dXJlQm94U2l6ZU1vZGUBAAAAB3ZhbHVlX18ACAIA
+AAABAAAACw==</value></data><data name="&gt;&gt;pictDelete.ZOrder" xml:space="preserve"><value>9</value></data>
+  <data name="pictSelDelete.Visible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>False</value></data>
+  <data name="&gt;&gt;pictSelDelete.ZOrder" xml:space="preserve"><value>0</value></data>
+  <data name="pictSelBlack.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAA8AAAAAwAAAAs=</value></data><data name="&gt;&gt;refContextMenu.Type" xml:space="preserve"><value>System.Windows.Forms.ContextMenu, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;refContextMenu.Name" xml:space="preserve"><value>refContextMenu</value></data>
+  <data name="dataGridTextBoxColumn6.Width" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>12</value></data>
+  <data name="&gt;&gt;mainMenu.Type" xml:space="preserve"><value>System.Windows.Forms.MainMenu, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;mainMenu.Name" xml:space="preserve"><value>mainMenu</value></data>
+  <data name="&gt;&gt;pictSelMove.Name" xml:space="preserve"><value>pictSelMove</value></data>
+  <data name="&gt;&gt;pictSelMove.Type" xml:space="preserve"><value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="saveFileDialog.Filter" xml:space="preserve"><value>Topo File (.top)|*.top</value></data>
+  <data name="&gt;&gt;menuFile.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuFile.Name" xml:space="preserve"><value>menuFile</value></data>
+  <data name="pictBrown.SizeMode" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ACdTeXN0ZW0uV2luZG93cy5Gb3Jtcy5QaWN0dXJlQm94U2l6ZU1vZGUBAAAAB3ZhbHVlX18ACAIA
+AAABAAAACw==</value></data><data name="pictDelete.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAC6AAAAAwAAAAs=</value></data><data name="&gt;&gt;menuCloseAct.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuCloseAct.Name" xml:space="preserve"><value>menuCloseAct</value></data>
+  <data name="menuSmart.Text" xml:space="preserve"><value>Smart</value></data>
+  <data name="&gt;&gt;moveRU.ZOrder" xml:space="preserve"><value>20</value></data>
+  <data name="&gt;&gt;menuS2O.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuS2O.Name" xml:space="preserve"><value>menuS2O</value></data>
+  <data name="dataGridTextBoxColumnR3.Width" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>55</value></data>
+  <data name="&gt;&gt;moveRU.Parent" xml:space="preserve"><value>panelPaint</value></data>
+  <data name="&gt;&gt;panelMap.ZOrder" xml:space="preserve"><value>2</value></data>
+  <data name="pictBlack.SizeMode" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ACdTeXN0ZW0uV2luZG93cy5Gb3Jtcy5QaWN0dXJlQm94U2l6ZU1vZGUBAAAAB3ZhbHVlX18ACAIA
+AAABAAAACw==</value></data><data name="&gt;&gt;menuToBranch.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuToBranch.Name" xml:space="preserve"><value>menuToBranch</value></data>
+  <data name="&gt;&gt;menuBluetooth.Name" xml:space="preserve"><value>menuBluetooth</value></data>
+  <data name="&gt;&gt;menuBluetooth.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="menuEnd.Text" xml:space="preserve"><value>Connect Here</value></data>
+  <data name="&gt;&gt;menuS2M.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuS2M.Name" xml:space="preserve"><value>menuS2M</value></data>
+  <data name="&gt;&gt;menuD2M.Name" xml:space="preserve"><value>menuD2M</value></data>
+  <data name="&gt;&gt;menuD2M.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="dataGrid.Dock" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+AB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAFAAAACw==</value></data><data name="dataGrid.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAPAAAAAMAQAACw==</value></data><data name="pictGreen.SizeMode" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ACdTeXN0ZW0uV2luZG93cy5Gb3Jtcy5QaWN0dXJlQm94U2l6ZU1vZGUBAAAAB3ZhbHVlX18ACAIA
+AAABAAAACw==</value></data><data name="&gt;&gt;menuLoops.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuLoops.Name" xml:space="preserve"><value>menuLoops</value></data>
+  <data name="&gt;&gt;menuSep11.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuSep11.Name" xml:space="preserve"><value>menuSep11</value></data>
+  <data name="panelMap.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAAAAAAAAAAAAs=</value></data><data name="&gt;&gt;pictGray.Name" xml:space="preserve"><value>pictGray</value></data>
+  <data name="&gt;&gt;pictGray.Type" xml:space="preserve"><value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="dataGridTextBoxColumn6.MappingName" xml:space="preserve"><value>Comment</value></data>
+  <data name="&gt;&gt;moveLU.Parent" xml:space="preserve"><value>panelPaint</value></data>
+  <data name="menuThickS.Text" xml:space="preserve"><value>Thick Lines</value></data>
+  <data name="dataGrid.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>2</value></data>
+  <data name="&gt;&gt;menuD2O.Name" xml:space="preserve"><value>menuD2O</value></data>
+  <data name="&gt;&gt;menuD2O.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;pictDelete.Parent" xml:space="preserve"><value>panelPaint</value></data>
+  <data name="menuStart.Text" xml:space="preserve"><value>Start Here</value></data>
+  <data name="pictSelMove.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAAwAAAAMAAAACw==</value></data><data name="&gt;&gt;menuSep13.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuSep13.Name" xml:space="preserve"><value>menuSep13</value></data>
+  <data name="&gt;&gt;menuExp3D.Name" xml:space="preserve"><value>menuExp3D</value></data>
+  <data name="&gt;&gt;menuExp3D.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="menuInsert.Text" xml:space="preserve"><value>New Row</value></data>
+  <data name="&gt;&gt;toolBarPlus.Type" xml:space="preserve"><value>System.Windows.Forms.ToolBarButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;moveRU.Type" xml:space="preserve"><value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;toolBarPlus.Name" xml:space="preserve"><value>toolBarPlus</value></data>
+  <data name="&gt;&gt;moveRU.Name" xml:space="preserve"><value>moveRU</value></data>
+  <data name="menuRInsert.Text" xml:space="preserve"><value>New Row</value></data>
+  <data name="&gt;&gt;menuSep10.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuSep10.Name" xml:space="preserve"><value>menuSep10</value></data>
+  <data name="moveRU.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAAAAAAAAEAAAs=</value></data><data name="menuRasterS.Text" xml:space="preserve"><value>Show Grid</value></data>
+  <data name="&gt;&gt;pictOrange.Parent" xml:space="preserve"><value>panelPaint</value></data>
+  <data name="&gt;&gt;menuSep15.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuCom6.Name" xml:space="preserve"><value>menuCom6</value></data>
+  <data name="&gt;&gt;menuSep15.Name" xml:space="preserve"><value>menuSep15</value></data>
+  <data name="&gt;&gt;pictSelOrange.Name" xml:space="preserve"><value>pictSelOrange</value></data>
+  <data name="&gt;&gt;menuCom6.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;pictSelOrange.Type" xml:space="preserve"><value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="pictGray.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAAwAAAAMAAAACw==</value></data><data name="pictBrown.Image" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA1gAAAAJCTdYAAAAAAAAA
+dgAAACgAAAAMAAAADAAAAAEABAAAAAAAAAAAAMQOAADEDgAAEAAAABAAAAAAAAD/AACA/wCAAP8A
+gID/gAAA/4AAgP+AgAD/wMDA/4CAgP8AAP//AP8A/wD/////AAD//wD/////AP//////////////
+AAD///////8AAP//ERH//wAA//ERER//AAD/EREREf8AAP8RERER/wAA/xERERH/AAD/EREREf8A
+AP/xEREf/wAA//8REf//AAD///////8AAP///////wAACw==</value></data><data name="&gt;&gt;menuCom7.Name" xml:space="preserve"><value>menuCom7</value></data>
+  <data name="&gt;&gt;menuCom7.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuSep12.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuSep12.Name" xml:space="preserve"><value>menuSep12</value></data>
+  <data name="&gt;&gt;moveLU.Name" xml:space="preserve"><value>moveLU</value></data>
+  <data name="&gt;&gt;moveLU.Type" xml:space="preserve"><value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;pictBlue.ZOrder" xml:space="preserve"><value>13</value></data>
+  <data name="&gt;&gt;toolBarMap.Type" xml:space="preserve"><value>System.Windows.Forms.ToolBarButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;toolBarMap.Name" xml:space="preserve"><value>toolBarMap</value></data>
+  <data name="menuAll.Text" xml:space="preserve"><value>Show All</value></data>
+  <data name="&gt;&gt;menuSep17.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuCom4.Name" xml:space="preserve"><value>menuCom4</value></data>
+  <data name="&gt;&gt;menuSep17.Name" xml:space="preserve"><value>menuSep17</value></data>
+  <data name="&gt;&gt;menuCom4.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="menuThickP.Text" xml:space="preserve"><value>Thick Lines</value></data>
+  <data name="panelPaint.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAPAAAAAMAQAACw==</value></data><data name="&gt;&gt;menuD2S.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuD2S.Name" xml:space="preserve"><value>menuD2S</value></data>
+  <data name="&gt;&gt;menuIdsP.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuIdsP.Name" xml:space="preserve"><value>menuIdsP</value></data>
+  <data name="&gt;&gt;pictSelMove.Parent" xml:space="preserve"><value>panelPaint</value></data>
+  <data name="&gt;&gt;menuCom5.Name" xml:space="preserve"><value>menuCom5</value></data>
+  <data name="&gt;&gt;menuCom5.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuSep14.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="toolBarRedo.ImageIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>8</value></data>
+  <data name="&gt;&gt;menuSep14.Name" xml:space="preserve"><value>menuSep14</value></data>
+  <data name="&gt;&gt;pictSelBlue.Name" xml:space="preserve"><value>pictSelBlue</value></data>
+  <data name="&gt;&gt;pictSelBlue.Type" xml:space="preserve"><value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="menuSaveAs.Text" xml:space="preserve"><value>Save As...</value></data>
+  <data name="menuUndo.Text" xml:space="preserve"><value>Undo</value></data>
+  <data name="&gt;&gt;dataGridTableStyle1.Type" xml:space="preserve"><value>System.Windows.Forms.DataGridTableStyle, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;dataGridTableStyle1.Name" xml:space="preserve"><value>dataGridTableStyle1</value></data>
+  <data name="&gt;&gt;menuSep19.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuCom2.Name" xml:space="preserve"><value>menuCom2</value></data>
+  <data name="&gt;&gt;menuSep19.Name" xml:space="preserve"><value>menuSep19</value></data>
+  <data name="&gt;&gt;menuCom2.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="menuLOn.Text" xml:space="preserve"><value>Laser On</value></data>
+  <data name="&gt;&gt;pictGray.ZOrder" xml:space="preserve"><value>15</value></data>
+  <data name="menuRaster.Text" xml:space="preserve"><value>Show Grid</value></data>
+  <data name="&gt;&gt;pictGray.Parent" xml:space="preserve"><value>panelPaint</value></data>
+  <data name="&gt;&gt;menuCom3.Name" xml:space="preserve"><value>menuCom3</value></data>
+  <data name="&gt;&gt;menuCom3.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuSep16.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuSep16.Name" xml:space="preserve"><value>menuSep16</value></data>
+  <data name="pictRed.Image" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA1gAAAAJCTdYAAAAAAAAA
+dgAAACgAAAAMAAAADAAAAAEABAAAAAAAAAAAAMQOAADEDgAAEAAAABAAAAAAAAD/AACA/wCAAP8A
+gID/gAAA/4AAgP+AgAD/wMDA/4CAgP8AAP//AP8A/wD/////AAD//wD/////AP//////////////
+AAD///////8AAP//mZn//wAA//mZmZ//AAD/mZmZmf8AAP+ZmZmZ/wAA/5mZmZn/AAD/mZmZmf8A
+AP/5mZmf/wAA//+Zmf//AAD///////8AAP///////wAACw==</value></data><data name="&gt;&gt;saveChanges.ZOrder" xml:space="preserve"><value>3</value></data>
+  <data name="panelMap.Visible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>False</value></data>
+  <data name="&gt;&gt;dataGridTextBoxColumn2.Name" xml:space="preserve"><value>dataGridTextBoxColumn2</value></data>
+  <data name="&gt;&gt;dataGridTextBoxColumn2.Type" xml:space="preserve"><value>System.Windows.Forms.DataGridTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuCom0.Name" xml:space="preserve"><value>menuCom0</value></data>
+  <data name="&gt;&gt;menuCom0.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;pictSelRed.ZOrder" xml:space="preserve"><value>3</value></data>
+  <data name="&gt;&gt;menuComment.Name" xml:space="preserve"><value>menuComment</value></data>
+  <data name="menuM2O.Text" xml:space="preserve"><value>-&gt; Outline</value></data>
+  <data name="&gt;&gt;menuComment.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="pictRed.SizeMode" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ACdTeXN0ZW0uV2luZG93cy5Gb3Jtcy5QaWN0dXJlQm94U2l6ZU1vZGUBAAAAB3ZhbHVlX18ACAIA
+AAABAAAACw==</value></data><data name="&gt;&gt;dataGridTextBoxColumn3.Name" xml:space="preserve"><value>dataGridTextBoxColumn3</value></data>
+  <data name="&gt;&gt;dataGridTextBoxColumn3.Type" xml:space="preserve"><value>System.Windows.Forms.DataGridTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuCom1.Name" xml:space="preserve"><value>menuCom1</value></data>
+  <data name="&gt;&gt;menuCom1.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuSep18.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuSep18.Name" xml:space="preserve"><value>menuSep18</value></data>
+  <data name="&gt;&gt;pictOrange.ZOrder" xml:space="preserve"><value>11</value></data>
+  <data name="moveLU.Visible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>False</value></data>
+  <data name="&gt;&gt;menuThick.Name" xml:space="preserve"><value>menuThick</value></data>
+  <data name="&gt;&gt;menuThick.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuIdsS.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuIdsS.Name" xml:space="preserve"><value>menuIdsS</value></data>
+  <data name="&gt;&gt;menuDisconn.Name" xml:space="preserve"><value>menuDisconn</value></data>
+  <data name="&gt;&gt;menuDisconn.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="pictSelRed.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAACEAAAAAwAAAAs=</value></data><data name="menuImport.Text" xml:space="preserve"><value>Import</value></data>
+  <data name="dataGridTextBoxColumn3.Width" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>40</value></data>
+  <data name="&gt;&gt;moveLU.ZOrder" xml:space="preserve"><value>21</value></data>
+  <data name="&gt;&gt;menuXSectH.Name" xml:space="preserve"><value>menuXSectH</value></data>
+  <data name="&gt;&gt;menuXSectH.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;dataGridTextBoxColumn1.Name" xml:space="preserve"><value>dataGridTextBoxColumn1</value></data>
+  <data name="&gt;&gt;dataGridTextBoxColumn1.Type" xml:space="preserve"><value>System.Windows.Forms.DataGridTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="pictGreen.Image" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA1gAAAAJCTdYAAAAAAAAA
+dgAAACgAAAAMAAAADAAAAAEABAAAAAAAAAAAAMQOAADEDgAAEAAAABAAAAAAAAD/AACA/wDAAP8A
+gID/gAAA/4AAgP+AgAD/wMDA/4CAgP8AAP//AP8A/wD/////AAD//wD/////AP//////////////
+AAD///////8AAP//IiL//wAA//IiIi//AAD/IiIiIv8AAP8iIiIi/wAA/yIiIiL/AAD/IiIiIv8A
+AP/yIiIv/wAA//8iIv//AAD///////8AAP///////wAACw==</value></data><data name="&gt;&gt;pictSelRed.Parent" xml:space="preserve"><value>panelPaint</value></data>
+  <data name="&gt;&gt;pictMove.Type" xml:space="preserve"><value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;pictMove.Name" xml:space="preserve"><value>pictMove</value></data>
+  <data name="&gt;&gt;dataGridTextBoxColumn6.Name" xml:space="preserve"><value>dataGridTextBoxColumn6</value></data>
+  <data name="&gt;&gt;dataGridTextBoxColumn6.Type" xml:space="preserve"><value>System.Windows.Forms.DataGridTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="menuRStart.Text" xml:space="preserve"><value>Start Here</value></data>
+  <data name="&gt;&gt;pictSelBrown.ZOrder" xml:space="preserve"><value>5</value></data>
+  <data name="&gt;&gt;mapView.Type" xml:space="preserve"><value>Microsoft.CompactFramework.Design.UnsafeControl, Microsoft.CompactFramework.Design, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value></data>
+  <data name="&gt;&gt;mapView.Name" xml:space="preserve"><value>mapView</value></data>
+  <data name="menuExp3D.Text" xml:space="preserve"><value>3D...</value></data>
+  <data name="&gt;&gt;menuNew.Name" xml:space="preserve"><value>menuNew</value></data>
+  <data name="&gt;&gt;menuNew.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="menuM2D.Text" xml:space="preserve"><value>-&gt; Data</value></data>
+  <data name="&gt;&gt;pictBlack.Name" xml:space="preserve"><value>pictBlack</value></data>
+  <data name="&gt;&gt;pictBlack.Type" xml:space="preserve"><value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;dataGridTextBoxColumn4.Name" xml:space="preserve"><value>dataGridTextBoxColumn4</value></data>
+  <data name="&gt;&gt;dataGridTextBoxColumn4.Type" xml:space="preserve"><value>System.Windows.Forms.DataGridTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;mapView.ZOrder" xml:space="preserve"><value>0</value></data>
+  <data name="&gt;&gt;menuRaster.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuRaster.Name" xml:space="preserve"><value>menuRaster</value></data>
+  <data name="&gt;&gt;menuDumpP.Name" xml:space="preserve"><value>menuDumpP</value></data>
+  <data name="&gt;&gt;menuDumpP.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;dataGridTextBoxColumn5.Name" xml:space="preserve"><value>dataGridTextBoxColumn5</value></data>
+  <data name="menuExport.Text" xml:space="preserve"><value>Export</value></data>
+  <data name="&gt;&gt;dataGridTextBoxColumn5.Type" xml:space="preserve"><value>System.Windows.Forms.DataGridTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="moveRD.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAAwAAAAMAAAACw==</value></data><data name="menuCom6.Text" xml:space="preserve"><value>COM6</value></data>
+  <data name="pictBlack.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAA8AAAAAwAAAAs=</value></data><data name="&gt;&gt;menuEnd.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuEnd.Name" xml:space="preserve"><value>menuEnd</value></data>
+  <data name="&gt;&gt;menuDumpS.Name" xml:space="preserve"><value>menuDumpS</value></data>
+  <data name="&gt;&gt;menuDumpS.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;textData.Name" xml:space="preserve"><value>textData</value></data>
+  <data name="&gt;&gt;textData.Type" xml:space="preserve"><value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuCom8.Name" xml:space="preserve"><value>menuCom8</value></data>
+  <data name="&gt;&gt;menuCom8.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="menuComment.Text" xml:space="preserve"><value>Comment</value></data>
+  <data name="pictGreen.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAACoAAAAAwAAAAs=</value></data><data name="menuCom7.Text" xml:space="preserve"><value>COM7</value></data>
+  <data name="pictSelDelete.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAAwAAAAMAAAACw==</value></data><data name="menuComX.Text" xml:space="preserve"><value>Other...</value></data>
+  <data name="&gt;&gt;pictBlue.Parent" xml:space="preserve"><value>panelPaint</value></data>
+  <data name="&gt;&gt;menuCom9.Name" xml:space="preserve"><value>menuCom9</value></data>
+  <data name="&gt;&gt;menuCom9.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;moveLD.Type" xml:space="preserve"><value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;moveLD.Name" xml:space="preserve"><value>moveLD</value></data>
+  <data name="menuCom4.Text" xml:space="preserve"><value>COM4</value></data>
+  <data name="saveChanges.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAGQAAAAUAAAACw==</value></data><data name="saveChanges.Text" xml:space="preserve"><value>Save Changes?</value></data>
+  <data name="menuFeet.Text" xml:space="preserve"><value>feet</value></data>
+  <data name="menuCom5.Text" xml:space="preserve"><value>COM5</value></data>
+  <data name="&gt;&gt;pictRed.Type" xml:space="preserve"><value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;pictRed.Name" xml:space="preserve"><value>pictRed</value></data>
+  <data name="menuTrip.Text" xml:space="preserve"><value>Actual Trip...</value></data>
+  <data name="moveLD.Anchor" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ACFTeXN0ZW0uV2luZG93cy5Gb3Jtcy5BbmNob3JTdHlsZXMBAAAAB3ZhbHVlX18ACAIAAAAJAAAA
+Cw==</value></data><data name="menuOpen.Text" xml:space="preserve"><value>Open...</value></data>
+  <data name="menuCom2.Text" xml:space="preserve"><value>COM2</value></data>
+  <data name="menuCloseNone.Text" xml:space="preserve"><value>Close None</value></data>
+  <data name="textData.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAHEAAAAVAAAACw==</value></data><data name="&gt;&gt;dataGridRef.Type" xml:space="preserve"><value>System.Windows.Forms.DataGrid, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;dataGridRef.Name" xml:space="preserve"><value>dataGridRef</value></data>
+  <data name="panelPaint.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAAAAAAAAAAAAs=</value></data><data name="menuCom3.Text" xml:space="preserve"><value>COM3</value></data>
+  <data name="&gt;&gt;pictSelBrown.Parent" xml:space="preserve"><value>panelPaint</value></data>
+  <data name="menuCom0.Text" xml:space="preserve"><value>COM0</value></data>
+  <data name="&gt;&gt;mapView.Parent" xml:space="preserve"><value>panelMap</value></data>
+  <data name="dataGridTextBoxColumn2.MappingName" xml:space="preserve"><value>To</value></data>
+  <data name="&gt;&gt;menuMeasure.Name" xml:space="preserve"><value>menuMeasure</value></data>
+  <data name="&gt;&gt;menuMeasure.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuRPaste.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuRPaste.Name" xml:space="preserve"><value>menuRPaste</value></data>
+  <data name="&gt;&gt;menuTrip.Name" xml:space="preserve"><value>menuTrip</value></data>
+  <data name="&gt;&gt;menuTrip.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="menuCom1.Text" xml:space="preserve"><value>COM1</value></data>
+  <data name="&gt;&gt;panelMap.Name" xml:space="preserve"><value>panelMap</value></data>
+  <data name="&gt;&gt;panelMap.Type" xml:space="preserve"><value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuPaste.Name" xml:space="preserve"><value>menuPaste</value></data>
+  <data name="&gt;&gt;menuPaste.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuFlipAll.Name" xml:space="preserve"><value>menuFlipAll</value></data>
+  <data name="&gt;&gt;menuFlipAll.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="dataGridTextBoxColumn3.HeaderText" xml:space="preserve"><value>  Dist</value></data>
+  <data name="&gt;&gt;toolBarSketch.Name" xml:space="preserve"><value>toolBarSketch</value></data>
+  <data name="&gt;&gt;toolBarSketch.Type" xml:space="preserve"><value>System.Windows.Forms.ToolBarButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="menuSave.Text" xml:space="preserve"><value>Save</value></data>
+  <data name="moveRU.SizeMode" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ACdTeXN0ZW0uV2luZG93cy5Gb3Jtcy5QaWN0dXJlQm94U2l6ZU1vZGUBAAAAB3ZhbHVlX18ACAIA
+AAABAAAACw==</value></data><data name="menuRedo.Enabled" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>False</value></data>
+  <data name="&gt;&gt;saveChanges.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;menuDeg.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuDeg.Name" xml:space="preserve"><value>menuDeg</value></data>
+  <data name="dataGridTextBoxColumn3.MappingName" xml:space="preserve"><value>Dist</value></data>
+  <data name="textData.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAA8AAAAoQAAAAs=</value></data><data name="menuSep23.Text" xml:space="preserve"><value>-</value></data>
+  <data name="textData.Visible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>False</value></data>
+  <data name="&gt;&gt;pictOrange.Type" xml:space="preserve"><value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;pictOrange.Name" xml:space="preserve"><value>pictOrange</value></data>
+  <data name="pictGray.SizeMode" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ACdTeXN0ZW0uV2luZG93cy5Gb3Jtcy5QaWN0dXJlQm94U2l6ZU1vZGUBAAAAB3ZhbHVlX18ACAIA
+AAABAAAACw==</value></data><data name="&gt;&gt;menuOpen.Name" xml:space="preserve"><value>menuOpen</value></data>
+  <data name="dataGridTextBoxColumn5.MappingName" xml:space="preserve"><value>Incl</value></data>
+  <data name="&gt;&gt;menuOpen.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="menuSep22.Text" xml:space="preserve"><value>-</value></data>
+  <data name="&gt;&gt;menuCloseAll.Name" xml:space="preserve"><value>menuCloseAll</value></data>
+  <data name="textComm.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAANAAAAMAAAAAs=</value></data><data name="&gt;&gt;menuCloseAll.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="menuSep21.Text" xml:space="preserve"><value>-</value></data>
+  <data name="&gt;&gt;menuSave.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuSave.Name" xml:space="preserve"><value>menuSave</value></data>
+  <data name="menuFlipAll.Text" xml:space="preserve"><value>Flip All</value></data>
+  <data name="moveRU.Anchor" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ACFTeXN0ZW0uV2luZG93cy5Gb3Jtcy5BbmNob3JTdHlsZXMBAAAAB3ZhbHVlX18ACAIAAAAGAAAA
+Cw==</value></data><data name="menuSep20.Text" xml:space="preserve"><value>-</value></data>
+  <data name="dataGridTextBoxColumnR2.HeaderText" xml:space="preserve"><value>East</value></data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve"><value>MainForm</value></data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve"><value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuUnit.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuUnit.Name" xml:space="preserve"><value>menuUnit</value></data>
+  <data name="pictSelBrown.Image" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA1gAAAAJCTdYAAAAAAAAA
+dgAAACgAAAAMAAAADAAAAAEABAAAAAAAAAAAAMQOAADEDgAAEAAAABAAAAAAAAD/AACA/wCAAP8A
+gID/gAAA/4AAgP+AgAD/wMDA/4CAgP8AAP//AP8A/wD/////AAD//wD/////AP//////AAAAAAAA
+AAAP//////AAAA//ERH/8AAAD/ERER/wAAAPEREREfAAAA8RERER8AAADxERERHwAAAPEREREfAA
+AA/xEREf8AAAD/8REf/wAAAP//////AAAAAAAAAAAAAACw==</value></data><data name="menuCont.Text" xml:space="preserve"><value>Continue Here</value></data>
+  <data name="menuCom8.Text" xml:space="preserve"><value>COM8</value></data>
+  <data name="menuM2S.Text" xml:space="preserve"><value>-&gt; Side View</value></data>
+  <data name="&gt;&gt;menuXSectV.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuXSectV.Name" xml:space="preserve"><value>menuXSectV</value></data>
+  <data name="&gt;&gt;menuRDelete.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuRDelete.Name" xml:space="preserve"><value>menuRDelete</value></data>
+  <data name="menuCom9.Text" xml:space="preserve"><value>COM9</value></data>
+  <data name="pictDelete.Image" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA1gAAAAJCTdYAAAAAAAAA
+dgAAACgAAAAMAAAADAAAAAEABAAAAAAAAAAAAMQOAADEDgAAEAAAABAAAAAAAAD/AACA/wCAAP8A
+gID/gAAA/4AAgP+AgAD/wMDA/4CAgP8AAP//AP8A/wD/////AAD//wD/////AP//////AA////CP
+AAAAAP//8I8AAPAA//8AfwAA/wAP8A//AAD/8AAAj/8AAP//AAD//wAA//8AAP//AAD/8ACAD/8A
+APgAD/gA/wAAgAD//4AIAAAAD///94gAAAD//////wAACw==</value></data><data name="moveLD.Image" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA1gAAAAJCTdYAAAAAAAAA
+dgAAACgAAAAMAAAADAAAAAEABAAAAAAAAAAAAMQOAADEDgAAEAAAABAAAAAAAAD/AACA/wCAAP8A
+gID/gAAA/4AAgP+AgAD/wMDA/4CAgP8AAP//AP8A/wD/////AAD//wD/////AP//////AAAAAAAA
+AAAHd3d3d3AAAAcAAAd3cAAABwB3d3dwAAAHBwd3d3AAAAcHcHd3cAAABwd3B3dwAAAHd3dwd3AA
+AAd3d3cHcAAAB3d3d3BwAAAHd3d3d3AAAAAAAAAAAAAACw==</value></data><data name="&gt;&gt;menuDumpM.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuDumpM.Name" xml:space="preserve"><value>menuDumpM</value></data>
+  <data name="moveRD.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAAAAAAAAAAAAs=</value></data><data name="pictSelGray.SizeMode" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ACdTeXN0ZW0uV2luZG93cy5Gb3Jtcy5QaWN0dXJlQm94U2l6ZU1vZGUBAAAAB3ZhbHVlX18ACAIA
+AAABAAAACw==</value></data><data name="&gt;&gt;menuThickS.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuThickS.Name" xml:space="preserve"><value>menuThickS</value></data>
+  <data name="pictSelGray.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAAwAAAAMAAAACw==</value></data><data name="&gt;&gt;openFileDialog.Type" xml:space="preserve"><value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;openFileDialog.Name" xml:space="preserve"><value>openFileDialog</value></data>
+  <data name="&gt;&gt;fileError.Type" xml:space="preserve"><value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="pictGray.Image" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA1gAAAAJCTdYAAAAAAAAA
+dgAAACgAAAAMAAAADAAAAAEABAAAAAAAAAAAAMQOAADEDgAAEAAAABAAAAAAAAD/AACA/wCAAP8A
+gID/gAAA/4AAgP+AgAD/wMDA/4CAgP8AAP//AP8A/wD/////AAD//wD/////AP//////////////
+AAD///////8AAP//d3f//wAA//d3d3//AAD/d3d3d/8AAP93d3d3/wAA/3d3d3f/AAD/d3d3d/8A
+AP/3d3d//wAA//93d///AAD///////8AAP///////wAACw==</value></data><data name="&gt;&gt;fileError.Name" xml:space="preserve"><value>fileError</value></data>
+  <data name="pictSelGray.Visible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>False</value></data>
+  <data name="menuConnect.Text" xml:space="preserve"><value>Connect</value></data>
+  <data name="menuR2S.Text" xml:space="preserve"><value>-&gt; Side View</value></data>
+  <data name="pictDelete.SizeMode" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ACdTeXN0ZW0uV2luZG93cy5Gb3Jtcy5QaWN0dXJlQm94U2l6ZU1vZGUBAAAAB3ZhbHVlX18ACAIA
+AAABAAAACw==</value></data><data name="pictGreen.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAAwAAAAMAAAACw==</value></data><data name="menuUnit.Text" xml:space="preserve"><value>Units</value></data>
+  <data name="&gt;&gt;menuRInsert.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuRInsert.Name" xml:space="preserve"><value>menuRInsert</value></data>
+  <data name="menuNew.Text" xml:space="preserve"><value>New</value></data>
+  <data name="pictSelBlack.Image" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA1gAAAAJCTdYAAAAAAAAA
+dgAAACgAAAAMAAAADAAAAAEABAAAAAAAAAAAAMQOAADEDgAAEAAAABAAAAAAAAD/AACA/wCAAP8A
+gID/gAAA/4AAgP+AgAD/wMDA/4CAgP8AAP//AP8A/wD/////AAD//wD/////AP//////AAAAAAAA
+AAAP//////AAAA//AAD/8AAAD/AAAA/wAAAPAAAAAPAAAA8AAAAA8AAADwAAAADwAAAPAAAAAPAA
+AA/wAAAP8AAAD/8AAP/wAAAP//////AAAAAAAAAAAAAACw==</value></data><data name="toolBarUndo.Enabled" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>False</value></data>
+  <data name="&gt;&gt;fileError.Parent" xml:space="preserve"><value>panelPaint</value></data>
+  <data name="&gt;&gt;menuCont.Name" xml:space="preserve"><value>menuCont</value></data>
+  <data name="&gt;&gt;menuCont.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="moveRU.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAAwAAAAMAAAACw==</value></data><data name="&gt;&gt;pictGreen.ZOrder" xml:space="preserve"><value>10</value></data>
+  <data name="fileError.Visible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>False</value></data>
+  <data name="pictBrown.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAABgAAAAAwAAAAs=</value></data><data name="pictSelBlack.SizeMode" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ACdTeXN0ZW0uV2luZG93cy5Gb3Jtcy5QaWN0dXJlQm94U2l6ZU1vZGUBAAAAB3ZhbHVlX18ACAIA
+AAABAAAACw==</value></data><data name="pictSelDelete.Image" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA1gAAAAJCTdYAAAAAAAAA
+dgAAACgAAAAMAAAADAAAAAEABAAAAAAAAAAAAMQOAADEDgAAEAAAABAAAAAAAAD/AACA/wCAAP8A
+gID/gAAA/4AAgP+AgAD/wMDA/4CAgP8AAP//AP8A/wD/////AAD//wD/////AP//////AAAAAAAA
+AAAAAP//8IAAAAAA//8AcAAADwAP8A/wAAAP8AAAj/AAAA//AAD/8AAAD/8AAP/wAAAP8ACAD/AA
+AAgAD/gA8AAAAAD//4AAAAAAD///94AAAAAAAAAAAAAACw==</value></data><data name="&gt;&gt;moveRD.ZOrder" xml:space="preserve"><value>18</value></data>
+  <data name="pictSelOrange.Image" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA1gAAAAJCTdYAAAAAAAAA
+dgAAACgAAAAMAAAADAAAAAEABAAAAAAAAAAAAMQOAADEDgAAEAAAABAAAAAAAAD/AACA/wDAAP8A
+gP//gAAA/4AAgP+AgAD/wMDA/4CAgP8AAP//AP8A/wD/////AAD//wD/////AP//////AAAAAAAA
+AAAP//////AAAA//MzP/8AAAD/MzMz/wAAAPMzMzM/AAAA8zMzMz8AAADzMzMzPwAAAPMzMzM/AA
+AA/zMzM/8AAAD/8zM//wAAAP//////AAAAAAAAAAAAAACw==</value></data><data name="&gt;&gt;menuThickP.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuThickP.Name" xml:space="preserve"><value>menuThickP</value></data>
+  <data name="&gt;&gt;moveLD.Parent" xml:space="preserve"><value>panelPaint</value></data>
+  <data name="&gt;&gt;pictDelete.Type" xml:space="preserve"><value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;pictDelete.Name" xml:space="preserve"><value>pictDelete</value></data>
+  <data name="menuTitle.Text" xml:space="preserve"><value>Title Bar</value></data>
+  <data name="menuDelete.Text" xml:space="preserve"><value>Delete Row</value></data>
+  <data name="&gt;&gt;toolBarUndo.Type" xml:space="preserve"><value>System.Windows.Forms.ToolBarButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;toolBarUndo.Name" xml:space="preserve"><value>toolBarUndo</value></data>
+  <data name="&gt;&gt;menuMenu.Name" xml:space="preserve"><value>menuMenu</value></data>
+  <data name="&gt;&gt;menuMenu.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="dataGridRef.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAPAAAAAMAQAACw==</value></data><data name="dataGridRef.Dock" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+AB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAFAAAACw==</value></data><data name="moveLU.SizeMode" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ACdTeXN0ZW0uV2luZG93cy5Gb3Jtcy5QaWN0dXJlQm94U2l6ZU1vZGUBAAAAB3ZhbHVlX18ACAIA
+AAABAAAACw==</value></data><data name="moveLU.Image" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA1gAAAAJCTdYAAAAAAAAA
+dgAAACgAAAAMAAAADAAAAAEABAAAAAAAAAAAAMQOAADEDgAAEAAAABAAAAAAAAD/AACA/wCAAP8A
+gID/gAAA/4AAgP+AgAD/wMDA/4CAgP8AAP//AP8A/wD/////AAD//wD/////AP//////AAAAAAAA
+AAAHd3d3d3AAAAd3d3dwcAAAB3d3dwdwAAAHd3dwd3AAAAcHdwd3cAAABwdwd3dwAAAHBwd3d3AA
+AAcAd3d3cAAABwAAB3dwAAAHd3d3d3AAAAAAAAAAAAAACw==</value></data><data name="&gt;&gt;pictGreen.Type" xml:space="preserve"><value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;pictGreen.Name" xml:space="preserve"><value>pictGreen</value></data>
+  <data name="&gt;&gt;menuRasterS.Name" xml:space="preserve"><value>menuRasterS</value></data>
+  <data name="&gt;&gt;menuRasterS.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="menuMeasure.Text" xml:space="preserve"><value>Measure</value></data>
+  <data name="&gt;&gt;menuUndo.Name" xml:space="preserve"><value>menuUndo</value></data>
+  <data name="pictSelGreen.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAACoAAAAAwAAAAs=</value></data><data name="&gt;&gt;menuUndo.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="dataGridRef.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAAAAAAAAAAAAs=</value></data><data name="&gt;&gt;moveRD.Parent" xml:space="preserve"><value>panelPaint</value></data>
+  <data name="&gt;&gt;menuDelete.Name" xml:space="preserve"><value>menuDelete</value></data>
+  <data name="&gt;&gt;menuDelete.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;dataGridTextBoxColumnR1.Type" xml:space="preserve"><value>System.Windows.Forms.DataGridTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;dataGridTextBoxColumnR1.Name" xml:space="preserve"><value>dataGridTextBoxColumnR1</value></data>
+  <data name="openFileDialog.Filter" xml:space="preserve"><value>Topo File (.top)|*.top|All Files|*.*</value></data>
+  <data name="pictSelBrown.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAAwAAAAMAAAACw==</value></data><data name="menuCloseAll.Text" xml:space="preserve"><value>Close All</value></data>
+  <data name="moveLD.SizeMode" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ACdTeXN0ZW0uV2luZG93cy5Gb3Jtcy5QaWN0dXJlQm94U2l6ZU1vZGUBAAAAB3ZhbHVlX18ACAIA
+AAABAAAACw==</value></data><data name="resource9" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA9gAAAAJCTfYAAAAAAAAA
+dgAAACgAAAAQAAAAEAAAAAEABAAAAAAAAAAAAMQOAADEDgAAEAAAABAAAAAAAAD/AACA/wCAAP8A
+gID/gAAA/4AAgP+AgAD/wMDA/4CAgP8AAP//AP8A/wD/////AAD//wD/////AP//////////zMz/
+//////zMzM//////zM/MzP/////Mz/zM/////MzPz8zP///8z8/M/M////zM/8/Mz////MzP/MzP
+///8zM/8zM////zM/8/Mz////M/PzPzP///8zM/PzM/////Mz/zM/////8zPzMz//////MzMz///
+////zMz///8L</value></data><data name="resource8" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA9gAAAAJCTfYAAAAAAAAA
+dgAAACgAAAAQAAAAEAAAAAEABAAAAAAAAAAAAMQOAADEDgAAEAAAABAAAAAAAAD/AACA/wCAAP8A
+gID/gAAA/4AAgP+AgAD/wMDA/4CAgP8AAP//AP8A/wD/////AAD//wD/////AP//////////////
+/////////////////////////////////////8z////////8z////////8z//8zMzP//zP///MzM
+///M////zMz//8z///zMzP//zM//zM/M///8zMzM//z////MzM//////////////////////////
+//////////8L</value></data><data name="resource7" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA9gAAAAJCTfYAAAAAAAAA
+dgAAACgAAAAQAAAAEAAAAAEABAAAAAAAAAAAAMQOAADEDgAAEAAAABAAAAAAAAD/AACA/wCAAP8A
+gID/gAAA/4AAgP+AgAD/wMDA/4CAgP8AAP//AP8A/wD/////AAD//wD/////AP//////////////
+/////////////////////////////////////////8z//////////M///8zMzP//zP//zMzP///M
+///MzP///8z//8zMz///zP//zPzM//zM///P/8zMzM///////MzM////////////////////////
+//////////8L</value></data><data name="resource6" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA9gAAAAJCTfYAAAAAAAAA
+dgAAACgAAAAQAAAAEAAAAAEABAAAAAAAAAAAAMQOAADEDgAAEAAAABAAAAAAAAD/AACA/wCAAP8A
+gID/gAAA/4AAgP+AgAD/wMDA/4CAgP8AAP//AP8A/wD/////AAD//wD/////AP//////////////
+////////////////////////////////////////////////////////////////////8REREREf
+///xERERER//////////////////////////////////////////////////////////////////
+//////////8L</value></data><data name="resource5" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA9gAAAAJCTfYAAAAAAAAA
+dgAAACgAAAAQAAAAEAAAAAEABAAAAAAAAAAAAMQOAADEDgAAEAAAABAAAAAAAAD/AACA/wCAAP8A
+gID/gAAA/4AAgP+AgAD/wMDA/4CAgP8AAP//AP8A/wD/////AAD//wD/////AP//////////////
+////////////////////////////8R/////////xH/////////Ef////////8R//////8REREREf
+///xERERER//////8R/////////xH/////////Ef////////8R//////////////////////////
+//////////8L</value></data><data name="resource4" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA9gAAAAJCTfYAAAAAAAAA
+dgAAACgAAAAQAAAAEAAAAAEABAAAAAAAAAAAAMQOAADEDgAAEAAAABAAAAAAAAD/AACA/wCAAP8A
+gID/gAAA/4AAgP+AgAD/wMDA/4CAgP8AAP//AP8A/wD/////AAD//wD/////AP//////iIiIiIiI
+iIgAAAAAAAAAAI///////wAIj/////j/8PiI//j/+P//+Ij/+PmZmZmZiP/5n4//8PiI+Zj/j//w
++Imf+PAA/wAIn4/wD/8AAAiPjw////8ACI/w///////wgA////////gP////////+I/////////4
+iIiIiIiIiIgL</value></data><data name="resource3" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA9gAAAAJCTfYAAAAAAAAA
+dgAAACgAAAAQAAAAEAAAAAEABAAAAAAAAAAAAMQOAADEDgAAEAAAABAAAAAAAAD/AACA/wCAAP8A
+gID/gAAA/4AAgP+AgAD/wMDA/4CAgP8AAP//AP8A/wD/////AAD//wD/////AP//////iIiIiIiI
+iIgP////////8IAP//////AIj/AP////D/mP//AAAAD/mI///8zM//n4n//8zMzPn/iJn//MzMn/
++I/5n8zMn//wj//5n/n/8AgA///5n/AP+I8A//n/D//4j/8P+f8P//iP/w+f8P//+I//D5/w///4
+iICImAiIiIgL</value></data><data name="resource2" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA9gAAAAJCTfYAAAAAAAAA
+dgAAACgAAAAQAAAAEAAAAAEABAAAAAAAAAAAAMQOAADEDgAAEAAAABAAAAAAAAD/AACA/wCAAP8A
+gID/gAAA/4AAgP+AgAD/wMDA/4CAgP8AAP//AP8A/wD/////AAD//wD/////AP//////iICIiIiI
+iIiPD///////+I8P///58P/4jw////n/D/iP8P//+f8P+I//AP+f//D4j/8PD5//8PiP8P/wn//w
++I/w//8P//D4j/D///D/D/iP/w///wD/+I//D//w8P/4j/D//w//D/iPD///D//wAI////8P///4
+iIiIiAiIiIgL</value></data><data name="resource1" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA9gAAAAJCTfYAAAAAAAAA
+dgAAACgAAAAQAAAAEAAAAAEABAAAAAAAAAAAAMQOAADEDgAAEAAAABAAAAAAAAD/AACA/wCAAP8A
+gID/gAAA/4AAgP+AgAD/wMDA/4CAgP8AAP//AP8A/wD/////AAD//wD/////AP//////iIiIiIiI
+iIiP////////+I/////////4j/////////iP////////+I/////////4j/////////iIiIiIiIiI
+iI/////////4jwDwAA8AAPiP////////+I8A8AAPAAD4j/////////iPAPAADwAA+I/////////4
+iIiIiIiIiIgL</value></data><data name="menuDeg.Text" xml:space="preserve"><value>360°</value></data>
+  <data name="&gt;&gt;dataGridTextBoxColumnR3.Type" xml:space="preserve"><value>System.Windows.Forms.DataGridTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;dataGridTextBoxColumnR3.Name" xml:space="preserve"><value>dataGridTextBoxColumnR3</value></data>
+  <data name="resource12" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA9gAAAAJCTfYAAAAAAAAA
+dgAAACgAAAAQAAAAEAAAAAEABAAAAAAAAAAAAMQOAADEDgAAEAAAABAAAAAAAAD/AACA/wCAAP8A
+gID/gAAA/4AAgP+AgAD/wMDA/4CAgP8AAP//AP8A/wD/////AAD//wD/////AP//////////zMz/
+//////zMzM//////zMrMzP/////MyqzM/////MzKyszP///8ysrMrM////zMqsrMz////MzKrMzP
+///8zMqszM////zMqsrMz////MrKzKzP///8zMrKzM/////MyqzM/////8zKzMz//////MzMz///
+////zMz///8L</value></data><data name="resource13" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA9gAAAAJCTfYAAAAAAAAA
+dgAAACgAAAAQAAAAEAAAAAEABAAAAAAAAAAAAMQOAADEDgAAEAAAABAAAAAAAAD/AACA/wCAAP8A
+gID/gAAA/4AAgP+AgAD/wMDA/4CAgP8AAP//AP8A/wD/////AAD//wD/////AP//////////zMz/
+//////zMzM//////zMrMzP/////MyqzM/////MzKyszP///8ysrMrM////zMqsrMz////MzKrMzP
+///8zMqszM////zMqsrMz////MrKzKzP///8zMrKzM/////MyqzM/////8zKzMz//////MzMz///
+////zMz///8L</value></data><data name="resource10" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA9gAAAAJCTfYAAAAAAAAA
+dgAAACgAAAAQAAAAEAAAAAEABAAAAAAAAAAAAMQOAADEDgAAEAAAABAAAAAAAAD/AACA/wCAAP8A
+gID/gAAA/4AAgP+AgAD/wMDA/4CAgP8AAP//AP8A/wD/////AAD//wD/////AP//////////zMz/
+//////zMzM//////zMnMzP/////MyZzM/////MzJyczP///8ycnMnM////zMmcnMz////MzJnMzP
+///8zMmczM////zMmcnMz////MnJzJzP///8zMnJzM/////MyZzM/////8zJzMz//////MzMz///
+////zMz///8L</value></data><data name="resource11" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA9gAAAAJCTfYAAAAAAAAA
+dgAAACgAAAAQAAAAEAAAAAEABAAAAAAAAAAAAMQOAADEDgAAEAAAABAAAAAAAAD/AACA/wCAAP8A
+gID/gAAA/4AAgP+AgAD/wMDA/4CAgP8AAP//AP8A/wD/////AAD//wD/////AP//////////zMz/
+//////zMzM//////zMvMzP/////My7zM/////MzLy8zP///8y8vMvM////zMu8vMz////MzLvMzP
+///8zMu8zM////zMu8vMz////MvLzLzP///8zMvLzM/////My7zM/////8zLzMz//////MzMz///
+////zMz///8L</value></data><data name="&gt;&gt;menuSep2.Name" xml:space="preserve"><value>menuSep2</value></data>
+  <data name="&gt;&gt;menuSep2.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="menuMeter.Text" xml:space="preserve"><value>m</value></data>
+  <data name="pictMove.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAAwAAAAMAAAACw==</value></data><data name="&gt;&gt;pictSelGreen.Parent" xml:space="preserve"><value>panelPaint</value></data>
+  <data name="&gt;&gt;menuOptP.Name" xml:space="preserve"><value>menuOptP</value></data>
+  <data name="&gt;&gt;menuOptP.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="menuMenu.Text" xml:space="preserve"><value>Menu</value></data>
+  <data name="pictSelRed.Visible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>False</value></data>
+  <data name="&gt;&gt;menuSep1.Name" xml:space="preserve"><value>menuSep1</value></data>
+  <data name="&gt;&gt;menuSep1.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="pictBrown.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAAwAAAAMAAAACw==</value></data><data name="&gt;&gt;menuFlip.Name" xml:space="preserve"><value>menuFlip</value></data>
+  <data name="&gt;&gt;menuFlip.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;dataGridTextBoxColumnR5.Type" xml:space="preserve"><value>System.Windows.Forms.DataGridTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;dataGridTextBoxColumnR5.Name" xml:space="preserve"><value>dataGridTextBoxColumnR5</value></data>
+  <data name="&gt;&gt;pictRed.Parent" xml:space="preserve"><value>panelPaint</value></data>
+  <data name="&gt;&gt;menuXSect.Name" xml:space="preserve"><value>menuXSect</value></data>
+  <data name="&gt;&gt;menuXSect.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuSep4.Name" xml:space="preserve"><value>menuSep4</value></data>
+  <data name="&gt;&gt;menuSep4.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;dataGridTextBoxColumnR2.Type" xml:space="preserve"><value>System.Windows.Forms.DataGridTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;dataGridTextBoxColumnR2.Name" xml:space="preserve"><value>dataGridTextBoxColumnR2</value></data>
+  <data name="dataGridTextBoxColumnR4.MappingName" xml:space="preserve"><value>Alt</value></data>
+  <data name="&gt;&gt;pictSelBlue.Parent" xml:space="preserve"><value>panelPaint</value></data>
+  <data name="&gt;&gt;menuSep3.Name" xml:space="preserve"><value>menuSep3</value></data>
+  <data name="&gt;&gt;menuSep3.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="dataGridTextBoxColumnR3.HeaderText" xml:space="preserve"><value>North</value></data>
+  <data name="&gt;&gt;moveLD.ZOrder" xml:space="preserve"><value>19</value></data>
+  <data name="dataGridTextBoxColumnR1.Width" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>45</value></data>
+  <data name="&gt;&gt;menuOptS.Name" xml:space="preserve"><value>menuOptS</value></data>
+  <data name="&gt;&gt;menuOptS.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuSep6.Name" xml:space="preserve"><value>menuSep6</value></data>
+  <data name="&gt;&gt;menuSep6.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuRStart.Name" xml:space="preserve"><value>menuRStart</value></data>
+  <data name="&gt;&gt;menuRStart.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="menuFlip.Text" xml:space="preserve"><value>Flip</value></data>
+  <data name="&gt;&gt;toolBarMinus.Name" xml:space="preserve"><value>toolBarMinus</value></data>
+  <data name="&gt;&gt;toolBarMinus.Type" xml:space="preserve"><value>System.Windows.Forms.ToolBarButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;dataGridTextBoxColumnR4.Type" xml:space="preserve"><value>System.Windows.Forms.DataGridTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuM2O.Name" xml:space="preserve"><value>menuM2O</value></data>
+  <data name="&gt;&gt;dataGridTextBoxColumnR4.Name" xml:space="preserve"><value>dataGridTextBoxColumnR4</value></data>
+  <data name="&gt;&gt;menuM2O.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuCopy.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuCopy.Name" xml:space="preserve"><value>menuCopy</value></data>
+  <data name="menuNewCave.Text" xml:space="preserve"><value>New Cave</value></data>
+  <data name="dataGridTextBoxColumn1.MappingName" xml:space="preserve"><value>From</value></data>
+  <data name="&gt;&gt;menuSep5.Name" xml:space="preserve"><value>menuSep5</value></data>
+  <data name="&gt;&gt;menuSep5.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;panelPaint.ZOrder" xml:space="preserve"><value>1</value></data>
+  <data name="&gt;&gt;pictSelGreen.ZOrder" xml:space="preserve"><value>1</value></data>
+  <data name="&gt;&gt;panelPaint.Type" xml:space="preserve"><value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;panelPaint.Name" xml:space="preserve"><value>panelPaint</value></data>
+  <data name="menuO2M.Text" xml:space="preserve"><value>-&gt; Map</value></data>
+  <data name="&gt;&gt;fileError.ZOrder" xml:space="preserve"><value>23</value></data>
+  <data name="&gt;&gt;menuOpt.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="dataGridTextBoxColumnR4.Width" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>52</value></data>
+  <data name="&gt;&gt;menuOpt.Name" xml:space="preserve"><value>menuOpt</value></data>
+  <data name="&gt;&gt;toolBarData.Type" xml:space="preserve"><value>System.Windows.Forms.ToolBarButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;toolBarData.Name" xml:space="preserve"><value>toolBarData</value></data>
+  <data name="&gt;&gt;pictSelBlack.Type" xml:space="preserve"><value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;pictSelBlack.Name" xml:space="preserve"><value>pictSelBlack</value></data>
+  <data name="&gt;&gt;saveFileDialog.Name" xml:space="preserve"><value>saveFileDialog</value></data>
+  <data name="&gt;&gt;saveFileDialog.Type" xml:space="preserve"><value>System.Windows.Forms.SaveFileDialog, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="pictBlack.Image" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA1gAAAAJCTdYAAAAAAAAA
+dgAAACgAAAAMAAAADAAAAAEABAAAAAAAAAAAAMQOAADEDgAAEAAAABAAAAAAAAD/AACA/wCAAP8A
+gID/gAAA/4AAgP+AgAD/wMDA/4CAgP8AAP//AP8A/wD/////AAD//wD/////AP//////////////
+AAD///////8AAP//AAD//wAA//AAAA//AAD/AAAAAP8AAP8AAAAA/wAA/wAAAAD/AAD/AAAAAP8A
+AP/wAAAP/wAA//8AAP//AAD///////8AAP///////wAACw==</value></data><data name="&gt;&gt;menuSep8.Name" xml:space="preserve"><value>menuSep8</value></data>
+  <data name="&gt;&gt;menuSep8.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="menuExpDXF.Text" xml:space="preserve"><value>Graphics...</value></data>
+  <data name="textComm.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>4</value></data>
+  <data name="&gt;&gt;sketchView.Name" xml:space="preserve"><value>sketchView</value></data>
+  <data name="&gt;&gt;sketchView.Type" xml:space="preserve"><value>Microsoft.CompactFramework.Design.UnsafeControl, Microsoft.CompactFramework.Design, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value></data>
+  <data name="menuLOff.Text" xml:space="preserve"><value>LaserOff</value></data>
+  <data name="&gt;&gt;menuOptM.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuOptM.Name" xml:space="preserve"><value>menuOptM</value></data>
+  <data name="&gt;&gt;menuSep7.Name" xml:space="preserve"><value>menuSep7</value></data>
+  <data name="&gt;&gt;menuSep7.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;pictSelRed.Name" xml:space="preserve"><value>pictSelRed</value></data>
+  <data name="&gt;&gt;pictSelRed.Type" xml:space="preserve"><value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;pictGreen.Parent" xml:space="preserve"><value>panelPaint</value></data>
+  <data name="mapView.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>0</value></data>
+  <data name="&gt;&gt;menuSep9.Name" xml:space="preserve"><value>menuSep9</value></data>
+  <data name="&gt;&gt;menuSep9.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="moveRU.Visible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>False</value></data>
+  <data name="&gt;&gt;pictBrown.Name" xml:space="preserve"><value>pictBrown</value></data>
+  <data name="&gt;&gt;pictBrown.Type" xml:space="preserve"><value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuM2D.Name" xml:space="preserve"><value>menuM2D</value></data>
+  <data name="&gt;&gt;menuM2D.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuExport.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuExport.Name" xml:space="preserve"><value>menuExport</value></data>
+  <data name="pictSelOrange.SizeMode" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ACdTeXN0ZW0uV2luZG93cy5Gb3Jtcy5QaWN0dXJlQm94U2l6ZU1vZGUBAAAAB3ZhbHVlX18ACAIA
+AAABAAAACw==</value></data><data name="&gt;&gt;timer.Name" xml:space="preserve"><value>timer</value></data>
+  <data name="&gt;&gt;timer.Type" xml:space="preserve"><value>System.Windows.Forms.Timer, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;pictRed.ZOrder" xml:space="preserve"><value>12</value></data>
+  <data name="menuReverse.Text" xml:space="preserve"><value>Reverse</value></data>
+  <data name="&gt;&gt;menuCalib.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuCalib.Name" xml:space="preserve"><value>menuCalib</value></data>
+  <data name="pictSelGreen.Visible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>False</value></data>
+  <data name="&gt;&gt;menuFeet.Name" xml:space="preserve"><value>menuFeet</value></data>
+  <data name="&gt;&gt;menuFeet.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="menuR2O.Text" xml:space="preserve"><value>-&gt; Outline</value></data>
+  <data name="menuO2D.Text" xml:space="preserve"><value>-&gt; Data</value></data>
+  <data name="&gt;&gt;pictBlack.Parent" xml:space="preserve"><value>panelPaint</value></data>
+  <data name="resource" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA9gAAAAJCTfYAAAAAAAAA
+dgAAACgAAAAQAAAAEAAAAAEABAAAAAAAAAAAAMQOAADEDgAAEAAAABAAAAAAAAD/AACA/wCAAP8A
+gID/gAAA/4AAgP+AgAD/wMDA/4CAgP8AAP//AP8A/wD/////AAD//wD/////AP//////iIiIiIiI
+iIiP////////+I/////////4jwAA8ADwAPiP////////+I8AAPAA8AD4j/////////iPAADwAPAA
++I/////////4jwAA8ADwAPiP////////+I8AAPAA8AD4j/////////iPAADwAPAA+I/////////4
+iIiIiIiIiIgL</value></data><data name="pictBlue.SizeMode" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ACdTeXN0ZW0uV2luZG93cy5Gb3Jtcy5QaWN0dXJlQm94U2l6ZU1vZGUBAAAAB3ZhbHVlX18ACAIA
+AAABAAAACw==</value></data><data name="&gt;&gt;menuLOff.Type" xml:space="preserve"><value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;menuLOff.Name" xml:space="preserve"><value>menuLOff</value></data>
+  <data name="menuR2M.Text" xml:space="preserve"><value>-&gt; Map</value></data>
+  </root>

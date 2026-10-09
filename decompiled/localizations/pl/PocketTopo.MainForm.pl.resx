@@ -1,0 +1,355 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="pictSelBlue.Image" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA1gAAAAJCTdYAAAAAAAAA
+dgAAACgAAAAMAAAADAAAAAEABAAAAAAAAAAAAMQOAADEDgAAEAAAABAAAAAAAAD/AACA/wCAAP8A
+gID/gAAA/4AAgP+AgAD/wMDA/4CAgP8AAP//AP8A/wD/////AAD//wD/////AP//////AAAAAAAA
+AAAP//////AAAA//zMz/8AAAD/zMzM/wAAAPzMzMzPAAAA/MzMzM8AAAD8zMzMzwAAAPzMzMzPAA
+AA/8zMzP8AAAD//MzP/wAAAP//////AAAAAAAAAAAAAACw==</value></data><data name="menuXSect.Text" xml:space="preserve"><value>Przekroj |</value></data>
+  <data name="menuXSectH.Text" xml:space="preserve"><value>Przekroj –</value></data>
+  <data name="menuExit.Text" xml:space="preserve"><value>Wyjscie</value></data>
+  <data name="menuSTrip.Text" xml:space="preserve"><value>Tura…</value></data>
+  <data name="menuThick.Text" xml:space="preserve"><value>Grube linie</value></data>
+  <data name="menuDumpP.Text" xml:space="preserve"><value>Zrzut ekranu…</value></data>
+  <data name="menuRPaste.Text" xml:space="preserve"><value>Wklej</value></data>
+  <data name="menuRenum.Text" xml:space="preserve"><value>Przenumeruj</value></data>
+  <data name="menuDumpS.Text" xml:space="preserve"><value>Zrzut ekranu…</value></data>
+  <data name="menuS2D.Text" xml:space="preserve"><value>-&gt; Dane</value></data>
+  <data name="menuOpt.Text" xml:space="preserve"><value>Opcje</value></data>
+  <data name="menuO2S.Text" xml:space="preserve"><value>-&gt; Przekroj</value></data>
+  <data name="moveRU.Image" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA1gAAAAJCTdYAAAAAAAAA
+dgAAACgAAAAMAAAADAAAAAEABAAAAAAAAAAAAMQOAADEDgAAEAAAABAAAAAAAAD/AACA/wCAAP8A
+gID/gAAA/4AAgP+AgAD/wMDA/4CAgP8AAP//AP8A/wD/////AAD//wD/////AP//////AAAAAAAA
+AAAHd3d3d3AAAAcHd3d3cAAAB3B3d3dwAAAHdwd3d3AAAAd3cHdwcAAAB3d3B3BwAAAHd3dwcHAA
+AAd3d3cAcAAAB3dwAABwAAAHd3d3d3AAAAAAAAAAAAAACw==</value></data><data name="menuRedo.Text" xml:space="preserve"><value>Powtorz</value></data>
+  <data name="menuNone.Text" xml:space="preserve"><value>Brak</value></data>
+  <data name="menuCalib.Text" xml:space="preserve"><value>Kalibracja…</value></data>
+  <data name="pictSelMove.Image" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA1gAAAAJCTdYAAAAAAAAA
+dgAAACgAAAAMAAAADAAAAAEABAAAAAAAAAAAAMQOAADEDgAAEAAAABAAAAAAAAD/AACA/wCAAP8A
+gID/gAAA/4AAgP+AgAD/wMDA/4CAgP8AAP//AP8A/wD/////AAD//wD/////AP//////AAAAAAAA
+AAAP//8AD/AAAA8P/wD/8AAADwDwAP/wAAAPAAAP//AAAA8AAAAA8AAADwAAAA/wAAAPAAAA//AA
+AA8AAA//8AAADwAA///wAAAPAA////AAAAAAAAAAAAAACw==</value></data><data name="menuS2O.Text" xml:space="preserve"><value>-&gt; Szkic</value></data>
+  <data name="dataGridTextBoxColumn5.HeaderText" xml:space="preserve"><value>    U</value></data>
+  <data name="menuPaste.Text" xml:space="preserve"><value>Wklej</value></data>
+  <data name="menuToBranch.Text" xml:space="preserve"><value>Strzal -&gt;</value></data>
+  <data name="pictSelRed.Image" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA1gAAAAJCTdYAAAAAAAAA
+dgAAACgAAAAMAAAADAAAAAEABAAAAAAAAAAAAMQOAADEDgAAEAAAABAAAAAAAAD/AACA/wCAAP8A
+gID/gAAA/4AAgP+AgAD/wMDA/4CAgP8AAP//AP8A/wD/////AAD//wD/////AP//////AAAAAAAA
+AAAP//////AAAA//mZn/8AAAD/mZmZ/wAAAPmZmZmfAAAA+ZmZmZ8AAAD5mZmZnwAAAPmZmZmfAA
+AA/5mZmf8AAAD/+Zmf/wAAAP//////AAAAAAAAAAAAAACw==</value></data><data name="dataGridTextBoxColumnR4.HeaderText" xml:space="preserve"><value>Wys. </value></data>
+  <data name="pictSelGray.Image" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA1gAAAAJCTdYAAAAAAAAA
+dgAAACgAAAAMAAAADAAAAAEABAAAAAAAAAAAAMQOAADEDgAAEAAAABAAAAAAAAD/AACA/wCAAP8A
+gID/gAAA/4AAgP+AgAD/wMDA/4CAgP8AAP//AP8A/wD/////AAD//wD/////AP//////AAAAAAAA
+AAAP//////AAAA//d3f/8AAAD/d3d3/wAAAPd3d3d/AAAA93d3d38AAAD3d3d3fwAAAPd3d3d/AA
+AA/3d3d/8AAAD/93d//wAAAP//////AAAAAAAAAAAAAACw==</value></data><data name="menuFile.Text" xml:space="preserve"><value>Plik</value></data>
+  <data name="menuS2M.Text" xml:space="preserve"><value>-&gt; Plan</value></data>
+  <data name="menuD2M.Text" xml:space="preserve"><value>-&gt; Plan</value></data>
+  <data name="menuOptP.Text" xml:space="preserve"><value>Opcje</value></data>
+  <data name="txtFileDialog.Filter" xml:space="preserve"><value>Plik tekstowy (.txt)|*.txt</value></data>
+  <data name="menuXSectV.Text" xml:space="preserve"><value>Przekrój |</value></data>
+  <data name="menuD2O.Text" xml:space="preserve"><value>-&gt; Szkic</value></data>
+  <data name="menuDisconn.Text" xml:space="preserve"><value>Rozlacz</value></data>
+  <data name="menuOptS.Text" xml:space="preserve"><value>Opcje</value></data>
+  <data name="menuDumpM.Text" xml:space="preserve"><value>Zrzut ekranu…</value></data>
+  <data name="menuRComm.Text" xml:space="preserve"><value>Komentarz</value></data>
+  <data name="menuCopy.Text" xml:space="preserve"><value>Kopiuj</value></data>
+  <data name="menuOptM.Text" xml:space="preserve"><value>Opcje</value></data>
+  <data name="menuD2S.Text" xml:space="preserve"><value>-&gt; Przekroj</value></data>
+  <data name="menuExpText.Text" xml:space="preserve"><value>Tekst...</value></data>
+  <data name="pictSelGreen.Image" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA1gAAAAJCTdYAAAAAAAAA
+dgAAACgAAAAMAAAADAAAAAEABAAAAAAAAAAAAMQOAADEDgAAEAAAABAAAAAAAAD/AACA/wDAAP8A
+gID/gAAA/4AAgP+AgAD/wMDA/4CAgP8AAP//AP8A/wD/////AAD//wD/////AP//////AAAAAAAA
+AAAP//////AAAA//IiL/8AAAD/IiIi/wAAAPIiIiIvAAAA8iIiIi8AAADyIiIiLwAAAPIiIiIvAA
+AA/yIiIv8AAAD/8iIv/wAAAP//////AAAAAAAAAAAAAACw==</value></data><data name="dataGridTextBoxColumn1.HeaderText" xml:space="preserve"><value>    Od</value></data>
+  <data name="menuIdsP.Text" xml:space="preserve"><value>Pokaz ID</value></data>
+  <data name="pictOrange.Image" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA1gAAAAJCTdYAAAAAAAAA
+dgAAACgAAAAMAAAADAAAAAEABAAAAAAAAAAAAMQOAADEDgAAEAAAABAAAAAAAAD/AACA/wCAAP8A
+gP//gAAA/4AAgP+AgAD/wMDA/4CAgP8AAP//AP8A/wD/////AAD//wD/////AP//////////////
+AAD///////8AAP//MzP//wAA//MzMz//AAD/MzMzM/8AAP8zMzMz/wAA/zMzMzP/AAD/MzMzM/8A
+AP/zMzM//wAA//8zM///AAD///////8AAP///////wAACw==</value></data><data name="menuRCopy.Text" xml:space="preserve"><value>Kopiuj</value></data>
+  <data name="menuCloseAct.Text" xml:space="preserve"><value>Zamknij aktualny</value></data>
+  <data name="pictBlue.Image" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA1gAAAAJCTdYAAAAAAAAA
+dgAAACgAAAAMAAAADAAAAAEABAAAAAAAAAAAAMQOAADEDgAAEAAAABAAAAAAAAD/AACA/wCAAP8A
+gID/gAAA/4AAgP+AgAD/wMDA/4CAgP8AAP//AP8A/wD/////AAD//wD/////AP//////////////
+AAD///////8AAP//zMz//wAA//zMzM//AAD/zMzMzP8AAP/MzMzM/wAA/8zMzMz/AAD/zMzMzP8A
+AP/8zMzP/wAA///MzP//AAD///////8AAP///////wAACw==</value></data><data name="dataGridTextBoxColumn4.HeaderText" xml:space="preserve"><value>    A</value></data>
+  <data name="menuIdsS.Text" xml:space="preserve"><value>Pokaz ID</value></data>
+  <data name="pictMove.Image" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA1gAAAAJCTdYAAAAAAAAA
+dgAAACgAAAAMAAAADAAAAAEABAAAAAAAAAAAAMQOAADEDgAAEAAAABAAAAAAAAD/AACA/wCAAP8A
+gID/gAAA/4AAgP+AgAD/wMDA/4CAgP8AAP//AP8A/wD/////AAD//wD/////AP//////////8A//
+AAD///8AD/8AAP8P/wD//wAA/wDwAP//AAD/AAAP//8AAP8AAAAA/wAA/wAAAA//AAD/AAAA//8A
+AP8AAA///wAA/wAA////AAD/AA////8AAP8A/////wAACw==</value></data><data name="fileError.Text" xml:space="preserve"><value>Blad odczytu pliku w</value></data>
+  <data name="dataGridTextBoxColumn2.HeaderText" xml:space="preserve"><value>    Do</value></data>
+  <data name="menuRDelete.Text" xml:space="preserve"><value>Usun wiersz</value></data>
+  <data name="menuLoops.Text" xml:space="preserve"><value>Petla</value></data>
+  <data name="menuInfo.Text" xml:space="preserve"><value>Info…</value></data>
+  <data name="menuIds.Text" xml:space="preserve"><value>Pokaz ID</value></data>
+  <data name="moveRD.Image" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA1gAAAAJCTdYAAAAAAAAA
+dgAAACgAAAAMAAAADAAAAAEABAAAAAAAAAAAAMQOAADEDgAAEAAAABAAAAAAAAD/AACA/wCAAP8A
+gID/gAAA/4AAgP+AgAD/wMDA/4CAgP8AAP//AP8A/wD/////AAD//wD/////AP//////AAAAAAAA
+AAAHd3d3d3AAAAd3cAAAcAAAB3d3dwBwAAAHd3dwcHAAAAd3dwdwcAAAB3dwd3BwAAAHdwd3d3AA
+AAdwd3d3cAAABwd3d3dwAAAHd3d3d3AAAAAAAAAAAAAACw==</value></data><data name="saveFileDialog.Filter" xml:space="preserve"><value>Plik Topo (.top)|*.top</value></data>
+  <data name="menuSmart.Text" xml:space="preserve"><value>Inteligentne pomiary</value></data>
+  <data name="menuEnd.Text" xml:space="preserve"><value>Polacz tutaj</value></data>
+  <data name="menuThickS.Text" xml:space="preserve"><value>Grube linie</value></data>
+  <data name="menuStart.Text" xml:space="preserve"><value>Zacznij tutaj</value></data>
+  <data name="menuInsert.Text" xml:space="preserve"><value>Nowy wiersz</value></data>
+  <data name="menuRInsert.Text" xml:space="preserve"><value>Nowy wiersz</value></data>
+  <data name="menuRasterS.Text" xml:space="preserve"><value>Pokaz siatke</value></data>
+  <data name="pictBrown.Image" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA1gAAAAJCTdYAAAAAAAAA
+dgAAACgAAAAMAAAADAAAAAEABAAAAAAAAAAAAMQOAADEDgAAEAAAABAAAAAAAAD/AACA/wCAAP8A
+gID/gAAA/4AAgP+AgAD/wMDA/4CAgP8AAP//AP8A/wD/////AAD//wD/////AP//////////////
+AAD///////8AAP//ERH//wAA//ERER//AAD/EREREf8AAP8RERER/wAA/xERERH/AAD/EREREf8A
+AP/xEREf/wAA//8REf//AAD///////8AAP///////wAACw==</value></data><data name="menuAll.Text" xml:space="preserve"><value>Pokaz wszystko</value></data>
+  <data name="menuThickP.Text" xml:space="preserve"><value>Grube linie</value></data>
+  <data name="menuSaveAs.Text" xml:space="preserve"><value>Zapisz jako…</value></data>
+  <data name="menuUndo.Text" xml:space="preserve"><value>Cofnij</value></data>
+  <data name="menuRaster.Text" xml:space="preserve"><value>Pokaz siatke</value></data>
+  <data name="pictRed.Image" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA1gAAAAJCTdYAAAAAAAAA
+dgAAACgAAAAMAAAADAAAAAEABAAAAAAAAAAAAMQOAADEDgAAEAAAABAAAAAAAAD/AACA/wCAAP8A
+gID/gAAA/4AAgP+AgAD/wMDA/4CAgP8AAP//AP8A/wD/////AAD//wD/////AP//////////////
+AAD///////8AAP//mZn//wAA//mZmZ//AAD/mZmZmf8AAP+ZmZmZ/wAA/5mZmZn/AAD/mZmZmf8A
+AP/5mZmf/wAA//+Zmf//AAD///////8AAP///////wAACw==</value></data><data name="menuM2O.Text" xml:space="preserve"><value>-&gt; Szkic</value></data>
+  <data name="menuImport.Text" xml:space="preserve"><value>Importuj</value></data>
+  <data name="pictGreen.Image" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA1gAAAAJCTdYAAAAAAAAA
+dgAAACgAAAAMAAAADAAAAAEABAAAAAAAAAAAAMQOAADEDgAAEAAAABAAAAAAAAD/AACA/wDAAP8A
+gID/gAAA/4AAgP+AgAD/wMDA/4CAgP8AAP//AP8A/wD/////AAD//wD/////AP//////////////
+AAD///////8AAP//IiL//wAA//IiIi//AAD/IiIiIv8AAP8iIiIi/wAA/yIiIiL/AAD/IiIiIv8A
+AP/yIiIv/wAA//8iIv//AAD///////8AAP///////wAACw==</value></data><data name="menuRStart.Text" xml:space="preserve"><value>Zacznij tutaj</value></data>
+  <data name="menuM2D.Text" xml:space="preserve"><value>-&gt; Dane</value></data>
+  <data name="menuExport.Text" xml:space="preserve"><value>Eksportuj</value></data>
+  <data name="menuComment.Text" xml:space="preserve"><value>Komentarz…</value></data>
+  <data name="menuComX.Text" xml:space="preserve"><value>Inne…</value></data>
+  <data name="saveChanges.Text" xml:space="preserve"><value>Zachowac zmiany?</value></data>
+  <data name="menuFeet.Text" xml:space="preserve"><value>stopy</value></data>
+  <data name="menuTrip.Text" xml:space="preserve"><value>Aktualna tura</value></data>
+  <data name="menuOpen.Text" xml:space="preserve"><value>Otworz…</value></data>
+  <data name="menuCloseNone.Text" xml:space="preserve"><value>Nic nie zamykaj</value></data>
+  <data name="dataGridTextBoxColumn3.HeaderText" xml:space="preserve"><value>    D</value></data>
+  <data name="menuSave.Text" xml:space="preserve"><value>Zapisz</value></data>
+  <data name="menuFlipAll.Text" xml:space="preserve"><value>Odbij wszystkie</value></data>
+  <data name="dataGridTextBoxColumnR2.HeaderText" xml:space="preserve"><value>Wsch.</value></data>
+  <data name="pictSelBrown.Image" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA1gAAAAJCTdYAAAAAAAAA
+dgAAACgAAAAMAAAADAAAAAEABAAAAAAAAAAAAMQOAADEDgAAEAAAABAAAAAAAAD/AACA/wCAAP8A
+gID/gAAA/4AAgP+AgAD/wMDA/4CAgP8AAP//AP8A/wD/////AAD//wD/////AP//////AAAAAAAA
+AAAP//////AAAA//ERH/8AAAD/ERER/wAAAPEREREfAAAA8RERER8AAADxERERHwAAAPEREREfAA
+AA/xEREf8AAAD/8REf/wAAAP//////AAAAAAAAAAAAAACw==</value></data><data name="menuCont.Text" xml:space="preserve"><value>Kontynuuj tutaj</value></data>
+  <data name="menuM2S.Text" xml:space="preserve"><value>-&gt; Przekroj</value></data>
+  <data name="pictDelete.Image" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA1gAAAAJCTdYAAAAAAAAA
+dgAAACgAAAAMAAAADAAAAAEABAAAAAAAAAAAAMQOAADEDgAAEAAAABAAAAAAAAD/AACA/wCAAP8A
+gID/gAAA/4AAgP+AgAD/wMDA/4CAgP8AAP//AP8A/wD/////AAD//wD/////AP//////AA////CP
+AAAAAP//8I8AAPAA//8AfwAA/wAP8A//AAD/8AAAj/8AAP//AAD//wAA//8AAP//AAD/8ACAD/8A
+APgAD/gA/wAAgAD//4AIAAAAD///94gAAAD//////wAACw==</value></data><data name="moveLD.Image" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA1gAAAAJCTdYAAAAAAAAA
+dgAAACgAAAAMAAAADAAAAAEABAAAAAAAAAAAAMQOAADEDgAAEAAAABAAAAAAAAD/AACA/wCAAP8A
+gID/gAAA/4AAgP+AgAD/wMDA/4CAgP8AAP//AP8A/wD/////AAD//wD/////AP//////AAAAAAAA
+AAAHd3d3d3AAAAcAAAd3cAAABwB3d3dwAAAHBwd3d3AAAAcHcHd3cAAABwd3B3dwAAAHd3dwd3AA
+AAd3d3cHcAAAB3d3d3BwAAAHd3d3d3AAAAAAAAAAAAAACw==</value></data><data name="pictGray.Image" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA1gAAAAJCTdYAAAAAAAAA
+dgAAACgAAAAMAAAADAAAAAEABAAAAAAAAAAAAMQOAADEDgAAEAAAABAAAAAAAAD/AACA/wCAAP8A
+gID/gAAA/4AAgP+AgAD/wMDA/4CAgP8AAP//AP8A/wD/////AAD//wD/////AP//////////////
+AAD///////8AAP//d3f//wAA//d3d3//AAD/d3d3d/8AAP93d3d3/wAA/3d3d3f/AAD/d3d3d/8A
+AP/3d3d//wAA//93d///AAD///////8AAP///////wAACw==</value></data><data name="menuConnect.Text" xml:space="preserve"><value>Polacz</value></data>
+  <data name="menuR2S.Text" xml:space="preserve"><value>Przekrój</value></data>
+  <data name="menuUnit.Text" xml:space="preserve"><value>Jednostki</value></data>
+  <data name="menuNew.Text" xml:space="preserve"><value>Nowy</value></data>
+  <data name="pictSelBlack.Image" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA1gAAAAJCTdYAAAAAAAAA
+dgAAACgAAAAMAAAADAAAAAEABAAAAAAAAAAAAMQOAADEDgAAEAAAABAAAAAAAAD/AACA/wCAAP8A
+gID/gAAA/4AAgP+AgAD/wMDA/4CAgP8AAP//AP8A/wD/////AAD//wD/////AP//////AAAAAAAA
+AAAP//////AAAA//AAD/8AAAD/AAAA/wAAAPAAAAAPAAAA8AAAAA8AAADwAAAADwAAAPAAAAAPAA
+AA/wAAAP8AAAD/8AAP/wAAAP//////AAAAAAAAAAAAAACw==</value></data><data name="pictSelDelete.Image" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA1gAAAAJCTdYAAAAAAAAA
+dgAAACgAAAAMAAAADAAAAAEABAAAAAAAAAAAAMQOAADEDgAAEAAAABAAAAAAAAD/AACA/wCAAP8A
+gID/gAAA/4AAgP+AgAD/wMDA/4CAgP8AAP//AP8A/wD/////AAD//wD/////AP//////AAAAAAAA
+AAAAAP//8IAAAAAA//8AcAAADwAP8A/wAAAP8AAAj/AAAA//AAD/8AAAD/8AAP/wAAAP8ACAD/AA
+AAgAD/gA8AAAAAD//4AAAAAAD///94AAAAAAAAAAAAAACw==</value></data><data name="pictSelOrange.Image" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA1gAAAAJCTdYAAAAAAAAA
+dgAAACgAAAAMAAAADAAAAAEABAAAAAAAAAAAAMQOAADEDgAAEAAAABAAAAAAAAD/AACA/wDAAP8A
+gP//gAAA/4AAgP+AgAD/wMDA/4CAgP8AAP//AP8A/wD/////AAD//wD/////AP//////AAAAAAAA
+AAAP//////AAAA//MzP/8AAAD/MzMz/wAAAPMzMzM/AAAA8zMzMz8AAADzMzMzPwAAAPMzMzM/AA
+AA/zMzM/8AAAD/8zM//wAAAP//////AAAAAAAAAAAAAACw==</value></data><data name="menuTitle.Text" xml:space="preserve"><value>Pasek tytulu</value></data>
+  <data name="menuDelete.Text" xml:space="preserve"><value>Usun wiersz</value></data>
+  <data name="moveLU.Image" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA1gAAAAJCTdYAAAAAAAAA
+dgAAACgAAAAMAAAADAAAAAEABAAAAAAAAAAAAMQOAADEDgAAEAAAABAAAAAAAAD/AACA/wCAAP8A
+gID/gAAA/4AAgP+AgAD/wMDA/4CAgP8AAP//AP8A/wD/////AAD//wD/////AP//////AAAAAAAA
+AAAHd3d3d3AAAAd3d3dwcAAAB3d3dwdwAAAHd3dwd3AAAAcHdwd3cAAABwdwd3dwAAAHBwd3d3AA
+AAcAd3d3cAAABwAAB3dwAAAHd3d3d3AAAAAAAAAAAAAACw==</value></data><data name="openFileDialog.Filter" xml:space="preserve"><value>Pik Topo (.top)|*.top|Wszystkie pliki|*.*</value></data>
+  <data name="menuCloseAll.Text" xml:space="preserve"><value>Zamknij wszystko</value></data>
+  <data name="resource9" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA9gAAAAJCTfYAAAAAAAAA
+dgAAACgAAAAQAAAAEAAAAAEABAAAAAAAAAAAAMQOAADEDgAAEAAAABAAAAAAAAD/AACA/wCAAP8A
+gID/gAAA/4AAgP+AgAD/wMDA/4CAgP8AAP//AP8A/wD/////AAD//wD/////AP//////////zMz/
+//////zMzM//////zM/MzP/////Mz/zM/////MzPz8zP///8z8/M/M////zM/8/Mz////MzP/MzP
+///8zM/8zM////zM/8/Mz////M/PzPzP///8zM/PzM/////Mz/zM/////8zPzMz//////MzMz///
+////zMz///8L</value></data><data name="resource8" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA9gAAAAJCTfYAAAAAAAAA
+dgAAACgAAAAQAAAAEAAAAAEABAAAAAAAAAAAAMQOAADEDgAAEAAAABAAAAAAAAD/AACA/wCAAP8A
+gID/gAAA/4AAgP+AgAD/wMDA/4CAgP8AAP//AP8A/wD/////AAD//wD/////AP//////////////
+/////////////////////////////////////8z////////8z////////8z//8zMzP//zP///MzM
+///M////zMz//8z///zMzP//zM//zM/M///8zMzM//z////MzM//////////////////////////
+//////////8L</value></data><data name="resource7" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA9gAAAAJCTfYAAAAAAAAA
+dgAAACgAAAAQAAAAEAAAAAEABAAAAAAAAAAAAMQOAADEDgAAEAAAABAAAAAAAAD/AACA/wCAAP8A
+gID/gAAA/4AAgP+AgAD/wMDA/4CAgP8AAP//AP8A/wD/////AAD//wD/////AP//////////////
+/////////////////////////////////////////8z//////////M///8zMzP//zP//zMzP///M
+///MzP///8z//8zMz///zP//zPzM//zM///P/8zMzM///////MzM////////////////////////
+//////////8L</value></data><data name="resource6" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA9gAAAAJCTfYAAAAAAAAA
+dgAAACgAAAAQAAAAEAAAAAEABAAAAAAAAAAAAMQOAADEDgAAEAAAABAAAAAAAAD/AACA/wCAAP8A
+gID/gAAA/4AAgP+AgAD/wMDA/4CAgP8AAP//AP8A/wD/////AAD//wD/////AP//////////////
+////////////////////////////////////////////////////////////////////8REREREf
+///xERERER//////////////////////////////////////////////////////////////////
+//////////8L</value></data><data name="resource5" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA9gAAAAJCTfYAAAAAAAAA
+dgAAACgAAAAQAAAAEAAAAAEABAAAAAAAAAAAAMQOAADEDgAAEAAAABAAAAAAAAD/AACA/wCAAP8A
+gID/gAAA/4AAgP+AgAD/wMDA/4CAgP8AAP//AP8A/wD/////AAD//wD/////AP//////////////
+////////////////////////////8R/////////xH/////////Ef////////8R//////8REREREf
+///xERERER//////8R/////////xH/////////Ef////////8R//////////////////////////
+//////////8L</value></data><data name="resource4" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA9gAAAAJCTfYAAAAAAAAA
+dgAAACgAAAAQAAAAEAAAAAEABAAAAAAAAAAAAMQOAADEDgAAEAAAABAAAAAAAAD/AACA/wCAAP8A
+gID/gAAA/4AAgP+AgAD/wMDA/4CAgP8AAP//AP8A/wD/////AAD//wD/////AP//////iIiIiIiI
+iIgAAAAAAAAAAI///////wAIj/////j/8PiI//j/+P//+Ij/+PmZmZmZiP/5n4//8PiI+Zj/j//w
++Imf+PAA/wAIn4/wD/8AAAiPjw////8ACI/w///////wgA////////gP////////+I/////////4
+iIiIiIiIiIgL</value></data><data name="resource3" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA9gAAAAJCTfYAAAAAAAAA
+dgAAACgAAAAQAAAAEAAAAAEABAAAAAAAAAAAAMQOAADEDgAAEAAAABAAAAAAAAD/AACA/wCAAP8A
+gID/gAAA/4AAgP+AgAD/wMDA/4CAgP8AAP//AP8A/wD/////AAD//wD/////AP//////iIiIiIiI
+iIgP////////8IAP//////AIj/AP////D/mP//AAAAD/mI///8zM//n4n//8zMzPn/iJn//MzMn/
++I/5n8zMn//wj//5n/n/8AgA///5n/AP+I8A//n/D//4j/8P+f8P//iP/w+f8P//+I//D5/w///4
+iICImAiIiIgL</value></data><data name="resource2" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA9gAAAAJCTfYAAAAAAAAA
+dgAAACgAAAAQAAAAEAAAAAEABAAAAAAAAAAAAMQOAADEDgAAEAAAABAAAAAAAAD/AACA/wCAAP8A
+gID/gAAA/4AAgP+AgAD/wMDA/4CAgP8AAP//AP8A/wD/////AAD//wD/////AP//////iICIiIiI
+iIiPD///////+I8P///58P/4jw////n/D/iP8P//+f8P+I//AP+f//D4j/8PD5//8PiP8P/wn//w
++I/w//8P//D4j/D///D/D/iP/w///wD/+I//D//w8P/4j/D//w//D/iPD///D//wAI////8P///4
+iIiIiAiIiIgL</value></data><data name="resource1" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA9gAAAAJCTfYAAAAAAAAA
+dgAAACgAAAAQAAAAEAAAAAEABAAAAAAAAAAAAMQOAADEDgAAEAAAABAAAAAAAAD/AACA/wCAAP8A
+gID/gAAA/4AAgP+AgAD/wMDA/4CAgP8AAP//AP8A/wD/////AAD//wD/////AP//////iIiIiIiI
+iIiP////////+I/////////4j/////////iP////////+I/////////4j/////////iIiIiIiIiI
+iI/////////4jwDwAA8AAPiP////////+I8A8AAPAAD4j/////////iPAPAADwAA+I/////////4
+iIiIiIiIiIgL</value></data><data name="resource12" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA9gAAAAJCTfYAAAAAAAAA
+dgAAACgAAAAQAAAAEAAAAAEABAAAAAAAAAAAAMQOAADEDgAAEAAAABAAAAAAAAD/AACA/wCAAP8A
+gID/gAAA/4AAgP+AgAD/wMDA/4CAgP8AAP//AP8A/wD/////AAD//wD/////AP//////////zMz/
+//////zMzM//////zMrMzP/////MyqzM/////MzKyszP///8ysrMrM////zMqsrMz////MzKrMzP
+///8zMqszM////zMqsrMz////MrKzKzP///8zMrKzM/////MyqzM/////8zKzMz//////MzMz///
+////zMz///8L</value></data><data name="resource13" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA9gAAAAJCTfYAAAAAAAAA
+dgAAACgAAAAQAAAAEAAAAAEABAAAAAAAAAAAAMQOAADEDgAAEAAAABAAAAAAAAD/AACA/wCAAP8A
+gID/gAAA/4AAgP+AgAD/wMDA/4CAgP8AAP//AP8A/wD/////AAD//wD/////AP//////////zMz/
+//////zMzM//////zMrMzP/////MyqzM/////MzKyszP///8ysrMrM////zMqsrMz////MzKrMzP
+///8zMqszM////zMqsrMz////MrKzKzP///8zMrKzM/////MyqzM/////8zKzMz//////MzMz///
+////zMz///8L</value></data><data name="resource10" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA9gAAAAJCTfYAAAAAAAAA
+dgAAACgAAAAQAAAAEAAAAAEABAAAAAAAAAAAAMQOAADEDgAAEAAAABAAAAAAAAD/AACA/wCAAP8A
+gID/gAAA/4AAgP+AgAD/wMDA/4CAgP8AAP//AP8A/wD/////AAD//wD/////AP//////////zMz/
+//////zMzM//////zMnMzP/////MyZzM/////MzJyczP///8ycnMnM////zMmcnMz////MzJnMzP
+///8zMmczM////zMmcnMz////MnJzJzP///8zMnJzM/////MyZzM/////8zJzMz//////MzMz///
+////zMz///8L</value></data><data name="resource11" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA9gAAAAJCTfYAAAAAAAAA
+dgAAACgAAAAQAAAAEAAAAAEABAAAAAAAAAAAAMQOAADEDgAAEAAAABAAAAAAAAD/AACA/wCAAP8A
+gID/gAAA/4AAgP+AgAD/wMDA/4CAgP8AAP//AP8A/wD/////AAD//wD/////AP//////////zMz/
+//////zMzM//////zMvMzP/////My7zM/////MzLy8zP///8y8vMvM////zMu8vMz////MzLvMzP
+///8zMu8zM////zMu8vMz////MvLzLzP///8zMvLzM/////My7zM/////8zLzMz//////MzMz///
+////zMz///8L</value></data><data name="dataGridTextBoxColumnR3.HeaderText" xml:space="preserve"><value>Pln.</value></data>
+  <data name="menuFlip.Text" xml:space="preserve"><value>Odbij</value></data>
+  <data name="menuNewCave.Text" xml:space="preserve"><value>Nowa jaskinia</value></data>
+  <data name="menuO2M.Text" xml:space="preserve"><value>-&gt; Plan</value></data>
+  <data name="pictBlack.Image" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA1gAAAAJCTdYAAAAAAAAA
+dgAAACgAAAAMAAAADAAAAAEABAAAAAAAAAAAAMQOAADEDgAAEAAAABAAAAAAAAD/AACA/wCAAP8A
+gID/gAAA/4AAgP+AgAD/wMDA/4CAgP8AAP//AP8A/wD/////AAD//wD/////AP//////////////
+AAD///////8AAP//AAD//wAA//AAAA//AAD/AAAAAP8AAP8AAAAA/wAA/wAAAAD/AAD/AAAAAP8A
+AP/wAAAP/wAA//8AAP//AAD///////8AAP///////wAACw==</value></data><data name="menuExpDXF.Text" xml:space="preserve"><value>Grafika…</value></data>
+  <data name="menuReverse.Text" xml:space="preserve"><value>Odwrotny</value></data>
+  <data name="menuR2O.Text" xml:space="preserve"><value>Szkic</value></data>
+  <data name="menuO2D.Text" xml:space="preserve"><value>-&gt; Dane</value></data>
+  <data name="resource" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA9gAAAAJCTfYAAAAAAAAA
+dgAAACgAAAAQAAAAEAAAAAEABAAAAAAAAAAAAMQOAADEDgAAEAAAABAAAAAAAAD/AACA/wCAAP8A
+gID/gAAA/4AAgP+AgAD/wMDA/4CAgP8AAP//AP8A/wD/////AAD//wD/////AP//////iIiIiIiI
+iIiP////////+I/////////4jwAA8ADwAPiP////////+I8AAPAA8AD4j/////////iPAADwAPAA
++I/////////4jwAA8ADwAPiP////////+I8AAPAA8AD4j/////////iPAADwAPAA+I/////////4
+iIiIiIiIiIgL</value></data><data name="menuR2M.Text" xml:space="preserve"><value>Plan</value></data>
+  </root>

@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="menuXSect.Text" xml:space="preserve"><value>Section |</value></data>
+  <data name="menuXSectH.Text" xml:space="preserve"><value>Section –</value></data>
+  <data name="menuExit.Text" xml:space="preserve"><value>Quitter</value></data>
+  <data name="menuSTrip.Text" xml:space="preserve"><value>Explo...</value></data>
+  <data name="menuThick.Text" xml:space="preserve"><value>Lignes épaisses</value></data>
+  <data name="menuDumpP.Text" xml:space="preserve"><value>Capture d'écran...</value></data>
+  <data name="menuRPaste.Text" xml:space="preserve"><value>Coller</value></data>
+  <data name="menuRenum.Text" xml:space="preserve"><value>Renuméroter</value></data>
+  <data name="menuDumpS.Text" xml:space="preserve"><value>Capture d'écran...</value></data>
+  <data name="menuS2D.Text" xml:space="preserve"><value>-&gt; Données</value></data>
+  <data name="menuO2S.Text" xml:space="preserve"><value>-&gt; Coupe</value></data>
+  <data name="menuAuto.Text" xml:space="preserve"><value>Automatique</value></data>
+  <data name="menuRedo.Text" xml:space="preserve"><value>Rétablir</value></data>
+  <data name="menuNone.Text" xml:space="preserve"><value>Aucun</value></data>
+  <data name="menuCalib.Text" xml:space="preserve"><value>Etalonnage...</value></data>
+  <data name="menuS2O.Text" xml:space="preserve"><value>-&gt; Plan</value></data>
+  <data name="menuPaste.Text" xml:space="preserve"><value>Coller</value></data>
+  <data name="menuToBranch.Text" xml:space="preserve"><value>Visée -&gt;</value></data>
+  <data name="dataGridTextBoxColumnR4.HeaderText" xml:space="preserve"><value>Alti</value></data>
+  <data name="menuFile.Text" xml:space="preserve"><value>Fichier</value></data>
+  <data name="menuS2M.Text" xml:space="preserve"><value>-&gt; Aperçu</value></data>
+  <data name="menuD2M.Text" xml:space="preserve"><value>-&gt; Aperçu</value></data>
+  <data name="txtFileDialog.Filter" xml:space="preserve"><value>Fichier Texte (.txt)|*.txt</value></data>
+  <data name="menuXSectV.Text" xml:space="preserve"><value>Section |</value></data>
+  <data name="menuD2O.Text" xml:space="preserve"><value>-&gt; Plan</value></data>
+  <data name="menuDisconn.Text" xml:space="preserve"><value>Déconnecter</value></data>
+  <data name="menuDumpM.Text" xml:space="preserve"><value>Capture d'écran...</value></data>
+  <data name="menuRComm.Text" xml:space="preserve"><value>Commentaire</value></data>
+  <data name="menuCopy.Text" xml:space="preserve"><value>Copier</value></data>
+  <data name="menuD2S.Text" xml:space="preserve"><value>-&gt; Coupe</value></data>
+  <data name="menuExpText.Text" xml:space="preserve"><value>Texte...</value></data>
+  <data name="dataGridTextBoxColumn1.HeaderText" xml:space="preserve"><value>Depuis</value></data>
+  <data name="menuIdsP.Text" xml:space="preserve"><value>Montrer les ID</value></data>
+  <data name="menuRCopy.Text" xml:space="preserve"><value>Copier</value></data>
+  <data name="menuCloseAct.Text" xml:space="preserve"><value>Fermer actuel</value></data>
+  <data name="menuIdsS.Text" xml:space="preserve"><value>Montrer les ID</value></data>
+  <data name="dataGridTextBoxColumn2.HeaderText" xml:space="preserve"><value>  Vers</value></data>
+  <data name="menuRDelete.Text" xml:space="preserve"><value>Supprimer la ligne</value></data>
+  <data name="menuLoops.Text" xml:space="preserve"><value>Boucles</value></data>
+  <data name="menuInfo.Text" xml:space="preserve"><value>Information...</value></data>
+  <data name="menuIds.Text" xml:space="preserve"><value>Montrer les ID</value></data>
+  <data name="saveFileDialog.Filter" xml:space="preserve"><value>Fichier Topo (.top)|*.top</value></data>
+  <data name="menuSmart.Text" xml:space="preserve"><value>Intelligent</value></data>
+  <data name="menuEnd.Text" xml:space="preserve"><value>Connecter ici</value></data>
+  <data name="menuThickS.Text" xml:space="preserve"><value>Lignes épaisses</value></data>
+  <data name="menuStart.Text" xml:space="preserve"><value>Démarrer ici</value></data>
+  <data name="menuInsert.Text" xml:space="preserve"><value>Nouvelle ligne</value></data>
+  <data name="menuRInsert.Text" xml:space="preserve"><value>Nouvelle ligne</value></data>
+  <data name="menuRasterS.Text" xml:space="preserve"><value>Montrer la Grille</value></data>
+  <data name="menuAll.Text" xml:space="preserve"><value>Tout montrer</value></data>
+  <data name="menuThickP.Text" xml:space="preserve"><value>Lignes épaisses</value></data>
+  <data name="menuSaveAs.Text" xml:space="preserve"><value>Enregistrer sous...</value></data>
+  <data name="menuUndo.Text" xml:space="preserve"><value>Annuler</value></data>
+  <data name="menuLOn.Text" xml:space="preserve"><value>Démarrer le laser</value></data>
+  <data name="menuRaster.Text" xml:space="preserve"><value>Montrer la Grille</value></data>
+  <data name="menuM2O.Text" xml:space="preserve"><value>-&gt; Plan</value></data>
+  <data name="menuImport.Text" xml:space="preserve"><value>Importer</value></data>
+  <data name="menuRStart.Text" xml:space="preserve"><value>Démarrer ici</value></data>
+  <data name="menuM2D.Text" xml:space="preserve"><value>-&gt; Données</value></data>
+  <data name="menuExport.Text" xml:space="preserve"><value>Exporter</value></data>
+  <data name="menuComment.Text" xml:space="preserve"><value>Commentaire</value></data>
+  <data name="menuComX.Text" xml:space="preserve"><value>Autre...</value></data>
+  <data name="saveChanges.Text" xml:space="preserve"><value>Enregistrer les Changements?</value></data>
+  <data name="menuFeet.Text" xml:space="preserve"><value>pied</value></data>
+  <data name="menuTrip.Text" xml:space="preserve"><value>Explo actuelle...</value></data>
+  <data name="menuOpen.Text" xml:space="preserve"><value>Ouvrir...</value></data>
+  <data name="menuCloseNone.Text" xml:space="preserve"><value>Fermer aucune</value></data>
+  <data name="menuSave.Text" xml:space="preserve"><value>Enregistrer</value></data>
+  <data name="menuFlipAll.Text" xml:space="preserve"><value>Tout Inverser</value></data>
+  <data name="dataGridTextBoxColumnR2.HeaderText" xml:space="preserve"><value>Est</value></data>
+  <data name="menuCont.Text" xml:space="preserve"><value>Continuer ici</value></data>
+  <data name="menuM2S.Text" xml:space="preserve"><value>-&gt; Coupe</value></data>
+  <data name="menuConnect.Text" xml:space="preserve"><value>Connecter</value></data>
+  <data name="menuR2S.Text" xml:space="preserve"><value>-&gt; Coupe</value></data>
+  <data name="menuUnit.Text" xml:space="preserve"><value>Unités</value></data>
+  <data name="menuNew.Text" xml:space="preserve"><value>Nouveau</value></data>
+  <data name="menuTitle.Text" xml:space="preserve"><value>Barre de Menu</value></data>
+  <data name="menuDelete.Text" xml:space="preserve"><value>Supprimer la ligne</value></data>
+  <data name="menuMeasure.Text" xml:space="preserve"><value>Mesure</value></data>
+  <data name="openFileDialog.Filter" xml:space="preserve"><value>Fichier Topo (.top)|*.top|Tous|*.*</value></data>
+  <data name="menuCloseAll.Text" xml:space="preserve"><value>Fermer tous</value></data>
+  <data name="dataGridTextBoxColumnR3.HeaderText" xml:space="preserve"><value>Nord</value></data>
+  <data name="menuFlip.Text" xml:space="preserve"><value>Inverser</value></data>
+  <data name="menuNewCave.Text" xml:space="preserve"><value>Nouvelle cavité</value></data>
+  <data name="menuO2M.Text" xml:space="preserve"><value>-&gt; Aperçu</value></data>
+  <data name="menuExpDXF.Text" xml:space="preserve"><value>Dessin...</value></data>
+  <data name="menuLOff.Text" xml:space="preserve"><value>Éteindre le laser</value></data>
+  <data name="menuReverse.Text" xml:space="preserve"><value>Inverse</value></data>
+  <data name="menuR2O.Text" xml:space="preserve"><value>-&gt; Plan</value></data>
+  <data name="menuO2D.Text" xml:space="preserve"><value>-&gt; Données</value></data>
+  <data name="menuR2M.Text" xml:space="preserve"><value>-&gt; Aperçu</value></data>
+  </root>
