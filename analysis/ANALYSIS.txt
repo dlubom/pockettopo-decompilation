@@ -1,0 +1,92 @@
+PocketTopo 1.372 — local decompilation, 2026-10-09
+
+RESULT
+The entire main EXE was processed into C# and IL using ILSpyCmd 9.1.0.7988.
+Decompilation completed with exit code 0 and no diagnostics. The result
+contains 56 C# files, 15,469 lines, 73 types, and 849 methods: 829 with IL
+bodies, 16 abstract methods, and 4 native imports from coredll.dll. All four
+localization assemblies (de, fr, pl, sl) were also processed without diagnostics.
+
+This is a reconstruction from a compiled program, not the author's original
+project. The recovered project has not been recompiled or fully tested for
+compatibility. The observations below come from code analysis, not new
+behavioral tests. Earlier native ID tests remain documented in PR #136.
+
+CODE MAP — files in csharp/PocketTopo/
+- ID.cs, Angle.cs, Station.cs, Trip.cs, Reference.cs: station identity,
+  measurement fields, flags, time, declination, references, and record I/O.
+- DataSet.cs, FileReader.cs, FileWriter.cs, Mapping.cs, Drawing.cs,
+  Polygon.cs, XSection.cs: TOP, sketches, file layout, versions, and backups.
+- Survey.cs, Projection.cs, Loop.cs: geometry, measurement grouping,
+  extended elevation, splays, loop closure, and statistics.
+- Therion.cs, ToporobotExp.cs, ToporobotImp.cs, VisualTopoExp.cs,
+  VisualTopoImp.cs, DXFWriter.cs, ThreeD.cs: exports and imports.
+- Calibrate.cs, CalibEntry.cs, Vector.cs, Matrix.cs: linear and nonlinear
+  calibration, optimization, and DistoX coefficient encoding.
+- Link.cs: SerialPort, eight-byte DistoX packets, acknowledgments,
+  memory transfers, and laser commands.
+- MainForm.cs, MapView.cs, SketchView.cs, Undo.cs, Config.cs, and forms:
+  user interface, views, Undo/Redo, and settings.
+
+SPECIFIC CODE OBSERVATIONS
+1. DataSet.Load includes other *.top files from ActualDirectory() as
+   templates before reading the current file. Geometry comparisons must
+   therefore also control the contents of the opened file's directory.
+2. Trip.Read interprets -32768 as Auto mode and resets declCorr to zero.
+   Trip.GetDeclination in the standard version 1.372 returns the supplied
+   decl without using auto, date, or rf. This path does not calculate a
+   correction from date and location. This finding does not establish the
+   behavior of the Swiss version 1.472.
+3. Survey.EvalData groups consecutive measurements of matching station
+   pairs, including pairs in the reverse direction. It calculates average
+   geometry from vector components, accounting for the sign of reverse
+   measurements and integer arithmetic. Do not assume equivalence to
+   averaging lengths and angles separately.
+4. Loop.Close distributes the correction among components in proportion
+   to dist. Loop.CloseLoops repeats corrections until the largest error
+   component is <= 10 internal units (mm); the constant IT_LIMIT=10 is an
+   error threshold, not a limit on the number of iterations.
+5. ID.cs explicitly confirms LIMIT=-1048576, RESVD=-256, and the offset
+   2146435071 used during reading and writing. ToString hides reserved
+   values. ID equality still compares the internal value — an empty string
+   does not eliminate all internal differences. Different aspects of
+   compatibility (export text, grouping, geometry) must be tested separately.
+
+POSSIBLE NEXT STEPS
+- Prepare a more detailed specification of the TOP and CAL formats,
+  including version conditions, flags, ID boundaries, rounding, and all fields.
+- Build controlled tests with the original EXE and compare the results
+  with the converter using the test2 files and small synthetic files.
+- Reproduce and test projection, loop closure, export, and calibration algorithms.
+- Evaluate a portable core or a new application interface. The C# files
+  alone are not yet a verified, working port.
+
+LIMITATIONS
+The author's comments, project history, some local variable names, and the
+original source organization have not been recovered. The coredll.dll
+imports contain declarations only; the system implementation and DistoX
+firmware are not part of this EXE. Bluetooth and hardware calibration
+require separate tests on the device. Successful decompilation does not
+confirm the semantic equivalence of a recompiled application.
+
+FILES
+csharp/ — main program, generated project, forms, and resources.
+localizations/ — four localization assemblies.
+PocketTopo.il — complete IL disassembly of the main EXE.
+manifest.json — versions, input SHA-256 hashes, counts, and test status.
+SHA256SUMS — output file checksums.
+
+TOOL AND SOURCE
+ILSpy: https://github.com/icsharpcode/ILSpy
+PocketTopo: https://paperless.bheeb.ch/PocketTopo13.html
+Official EXE SHA-256:
+048cf57b874238ac142f1e4d3446af639ce3760b4a91724ea00bcc320eb5c371
+
+Example reproduction with ilspycmd installed:
+ilspycmd --disable-updatecheck -p --nested-directories -o csharp PocketTopo.exe
+ilspycmd --disable-updatecheck -il PocketTopo.exe > PocketTopo.il
+The scripts/decompile.py script uses a pinned .NET 2.0 reference assembly
+package from NuGet instead of a Wine installation. The first attempt used
+.NET 2.0 libraries from Wine; changing the references changed only local
+variable names in three UI files (MainForm, MapView, SketchView). The
+canonical output in this repository comes from the reproducible script.

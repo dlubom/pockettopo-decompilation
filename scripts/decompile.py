@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Odtworz dekompilacje PocketTopo przy uzyciu przypietych artefaktow."""
+"""Reproduce the PocketTopo decompilation using pinned artifacts."""
 
 import argparse
 import hashlib
@@ -26,7 +26,7 @@ DIAGNOSTIC_MARKERS = (
 
 
 class DecompilationError(Exception):
-    """Nie mozna potwierdzic poprawnego, powtarzalnego wyniku."""
+    """A valid, reproducible result could not be verified."""
 
 
 def digest(path: Path, algorithm: str = "sha256") -> str:
@@ -39,10 +39,10 @@ def digest(path: Path, algorithm: str = "sha256") -> str:
 
 def require_digest(path: Path, spec: dict[str, Any]) -> None:
     if not path.is_file() or path.is_symlink():
-        raise DecompilationError(f"Brak zwyklego pliku: {path}")
+        raise DecompilationError(f"Not a regular file: {path}")
     algorithm = "sha512" if "sha512" in spec else "sha256"
     if digest(path, algorithm) != spec[algorithm]:
-        raise DecompilationError(f"Niezgodna suma {algorithm}: {path}")
+        raise DecompilationError(f"Checksum mismatch ({algorithm}): {path}")
 
 
 def safe_path(root: Path, name: str) -> Path:
@@ -54,12 +54,12 @@ def safe_path(root: Path, name: str) -> Path:
         or relative.is_absolute()
         or ".." in relative.parts
     ):
-        raise DecompilationError(f"Niebezpieczna sciezka: {name!r}")
+        raise DecompilationError(f"Unsafe path: {name!r}")
     target = root.joinpath(*relative.parts)
     resolved = target.resolve()
     base = root.resolve()
     if resolved != base and base not in resolved.parents:
-        raise DecompilationError(f"Sciezka wychodzi poza katalog: {name!r}")
+        raise DecompilationError(f"Path escapes the directory: {name!r}")
     return target
 
 
@@ -70,7 +70,7 @@ def extract_archive(archive: Path, target: Path) -> None:
             for member in source.infolist():
                 safe_path(target, member.filename)
                 if stat.S_ISLNK(member.external_attr >> 16):
-                    raise DecompilationError("Dowiazanie symboliczne w ZIP")
+                    raise DecompilationError("Symbolic link in ZIP archive")
             source.extractall(target)
         return
     with tarfile.open(archive) as source:
@@ -83,30 +83,30 @@ def extract_archive(archive: Path, target: Path) -> None:
                     or ":" in member.linkname
                     or PurePosixPath(member.linkname).is_absolute()
                 ):
-                    raise DecompilationError("Niebezpieczne dowiazanie TAR")
+                    raise DecompilationError("Unsafe link in TAR archive")
                 linked = (anchor / member.linkname).resolve()
                 if (
                     linked != target.resolve()
                     and target.resolve() not in linked.parents
                 ):
-                    raise DecompilationError("Dowiazanie TAR wychodzi poza katalog")
+                    raise DecompilationError("TAR link escapes the directory")
             elif not member.isfile() and not member.isdir():
-                raise DecompilationError(f"Nieobslugiwany wpis TAR: {member.name}")
+                raise DecompilationError(f"Unsupported TAR entry: {member.name}")
         source.extractall(target)
 
 
 def fetch_package(spec: dict[str, Any], cache: Path, offline: bool) -> Path:
     archive_name = spec["archive"]
     if Path(archive_name).name != archive_name:
-        raise DecompilationError("Nazwa archiwum w lockfile nie jest nazwa pliku")
+        raise DecompilationError("Archive name in lockfile is not a filename")
     cache.mkdir(parents=True, exist_ok=True)
     cached = cache / archive_name
     if cached.exists():
         require_digest(cached, spec)
         return cached
     if offline:
-        raise DecompilationError(f"Brak pakietu w cache offline: {cached}")
-    print(f"Pobieranie {archive_name}...", flush=True)
+        raise DecompilationError(f"Package missing from offline cache: {cached}")
+    print(f"Downloading {archive_name}...", flush=True)
     with tempfile.TemporaryDirectory(prefix="download-", dir=cache) as scratch:
         temporary = Path(scratch) / archive_name
         command = [
@@ -138,17 +138,17 @@ def runtime_id() -> str:
         return systems[platform.system()] + "-" + machines[platform.machine().lower()]
     except KeyError as exc:
         raise DecompilationError(
-            "Obslugiwane sa macOS/Linux/Windows, arm64 lub x64"
+            "Supported platforms: macOS/Linux/Windows on arm64 or x64"
         ) from exc
 
 
 def files_in(root: Path) -> dict[str, Path]:
     if not root.is_dir() or root.is_symlink():
-        raise DecompilationError(f"Brak zwyklego katalogu: {root}")
+        raise DecompilationError(f"Not a regular directory: {root}")
     files = {}
     for path in root.rglob("*"):
         if path.is_symlink():
-            raise DecompilationError(f"Dowiazanie w wynikach: {path}")
+            raise DecompilationError(f"Symbolic link in output: {path}")
         if path.is_file():
             files[path.relative_to(root).as_posix()] = path
     return files
@@ -168,15 +168,15 @@ def verify_checksums(root: Path) -> None:
     for line in (root / "SHA256SUMS").read_text(encoding="utf-8").splitlines():
         match = re.fullmatch(r"([0-9a-f]{64})  (.+)", line)
         if not match:
-            raise DecompilationError("Niepoprawny wpis SHA256SUMS")
+            raise DecompilationError("Invalid SHA256SUMS entry")
         value, name = match.groups()
         if name in expected or name == "SHA256SUMS":
-            raise DecompilationError(f"Powtorzony/niedozwolony wpis: {name}")
+            raise DecompilationError(f"Duplicate or disallowed entry: {name}")
         safe_path(root, name)
         expected[name] = value
     actual = files_in(root)
     if set(actual) != set(expected) | {"SHA256SUMS"} or not expected:
-        raise DecompilationError("Lista wynikow nie zgadza sie z SHA256SUMS")
+        raise DecompilationError("Output file list does not match SHA256SUMS")
     for name, value in expected.items():
         require_digest(actual[name], {"sha256": value})
 
@@ -193,7 +193,7 @@ def compare_trees(expected: Path, actual: Path) -> None:
     ]
     if differences:
         raise DecompilationError(
-            "Roznice wzgledem repozytorium:\n" + "\n".join(differences)
+            "Differences from the repository:\n" + "\n".join(differences)
         )
 
 
@@ -210,7 +210,7 @@ def verify_result(root: Path, lock: dict[str, Any]) -> None:
     for name, value in expected.items():
         if manifest.get(name) != value:
             raise DecompilationError(
-                f"Manifest nie odpowiada biezacemu wejsciu/procedurze: {name}"
+                f"Manifest does not match the current input or procedure: {name}"
             )
 
 
@@ -231,7 +231,7 @@ def il_counts(il: str) -> dict[str, int]:
         abstract += " abstract " in header
     bodies = len(re.findall(r"^\s*// Method begins at RVA", il, re.MULTILINE))
     if len(methods) != imports + abstract + bodies:
-        raise DecompilationError("Nie wszystkie metody zostaly rozliczone w IL")
+        raise DecompilationError("Not all IL methods are accounted for")
     return {
         "types": len(re.findall(r"^\s*\.class\s", il, re.MULTILINE)),
         "methods": len(methods),
@@ -299,7 +299,7 @@ def generate(lock: dict[str, Any], scratch: Path, cache: Path, offline: bool) ->
         )
     statuses = {}
     for name, arguments in jobs:
-        print(f"Dekompilacja: {name}...", flush=True)
+        print(f"Decompiling: {name}...", flush=True)
         process = subprocess.run(
             base + arguments, cwd=scratch, env=environment, capture_output=True
         )
@@ -311,14 +311,14 @@ def generate(lock: dict[str, Any], scratch: Path, cache: Path, offline: bool) ->
             (logs / (name + ".stdout.txt")).write_bytes(process.stdout)
         if process.returncode or process.stderr:
             raise DecompilationError(
-                f"ILSpy zglosil problem ({name}):\n"
+                f"ILSpy reported a problem ({name}):\n"
                 + process.stderr.decode("utf-8", errors="replace")
             )
     normalize_text(output)
     for path in (output / "csharp").rglob("*.cs"):
         text = path.read_text(encoding="utf-8-sig")
         if any(marker in text for marker in DIAGNOSTIC_MARKERS):
-            raise DecompilationError(f"Diagnostyka dekompilatora w C#: {path.name}")
+            raise DecompilationError(f"Decompiler diagnostics in C#: {path.name}")
     csharp_files = list((output / "csharp").rglob("*.cs"))
     counts = {
         "csharp_files": len(csharp_files),
@@ -360,43 +360,43 @@ def main() -> int:
     modes.add_argument(
         "--check",
         action="store_true",
-        help="odtworz i porownaj wynik bez zmieniania repozytorium",
+        help="regenerate and compare the output without modifying the repository",
     )
     modes.add_argument(
         "--verify",
         action="store_true",
-        help="sprawdz zapisane sumy, bez narzedzi i sieci",
+        help="verify stored checksums without tools or network access",
     )
-    parser.add_argument("--output", type=Path, help="nowy katalog na odtworzony wynik")
+    parser.add_argument("--output", type=Path, help="new directory for regenerated output")
     parser.add_argument("--cache", type=Path, default=ROOT / ".cache" / "downloads")
     parser.add_argument(
         "--offline",
         action="store_true",
-        help="korzystaj tylko z juz pobranych pakietow",
+        help="use only packages that have already been downloaded",
     )
     args = parser.parse_args()
     target = args.output.resolve() if args.output else ROOT / "decompiled"
     lock = json.loads((ROOT / "tools.lock.json").read_text(encoding="utf-8"))
     if lock["schema_version"] != 1:
-        raise DecompilationError("Nieobslugiwana wersja tools.lock.json")
+        raise DecompilationError("Unsupported tools.lock.json version")
     require_digest(ROOT / lock["application"]["archive"], lock["application"])
     if args.verify:
         verify_result(target, lock)
-        print("Sumy oryginalu i wszystkich wynikow sa zgodne.")
+        print("Checksums match for the original archive and all output files.")
         return 0
     checking = args.check or (not args.output and target.exists())
     if checking:
         verify_result(target, lock)
     elif target.exists():
-        raise DecompilationError("Katalog --output juz istnieje; wybierz nowy katalog")
+        raise DecompilationError("The --output directory already exists; choose a new one")
     with tempfile.TemporaryDirectory(prefix="pockettopo-decompile-") as directory:
         output = generate(lock, Path(directory), args.cache, args.offline)
         if checking:
             compare_trees(target, output)
-            print("Odtworzony wynik jest identyczny bajt w bajt z repozytorium.")
+            print("Regenerated output matches the repository byte for byte.")
         else:
             shutil.copytree(output, target)
-            print(f"Zapisano wynik: {target}")
+            print(f"Output saved to: {target}")
     return 0
 
 
@@ -412,5 +412,5 @@ if __name__ == "__main__":
         zipfile.BadZipFile,
         subprocess.CalledProcessError,
     ) as error:
-        print(f"Blad: {error}", file=sys.stderr)
+        print(f"Error: {error}", file=sys.stderr)
         sys.exit(1)
